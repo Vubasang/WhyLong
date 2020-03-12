@@ -64,6 +64,10 @@
       <DependentUpon>Form1.cs</DependentUpon>
     </Compile>
     <Compile Include="Genre.cs" />
+    <Compile Include="Migrations\202003120212270_WhyLong1.cs" />
+    <Compile Include="Migrations\202003120212270_WhyLong1.designer.cs">
+      <DependentUpon>202003120212270_WhyLong1.cs</DependentUpon>
+    </Compile>
     <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Person.cs" />
     <Compile Include="Picture.cs" />
@@ -72,6 +76,9 @@
     <Compile Include="UserContext.cs" />
     <EmbeddedResource Include="Form1.resx">
       <DependentUpon>Form1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\202003120212270_WhyLong1.resx">
+      <DependentUpon>202003120212270_WhyLong1.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
