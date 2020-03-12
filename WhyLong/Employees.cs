@@ -6,8 +6,9 @@ using System.Threading.Tasks;
 
 namespace WhyLong
 {
-    class Employees
+    class Employee
     {
+        public int EmployeeId { get; set; }
         public string Position { get; set; }
         public string Role { get; set; }
         public string PhoneNumber{ get; set; }
