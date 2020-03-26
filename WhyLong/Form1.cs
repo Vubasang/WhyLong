@@ -21,5 +21,10 @@ namespace WhyLong
         {
 
         }
+
+        private void МузейToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }
