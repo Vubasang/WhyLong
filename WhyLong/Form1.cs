@@ -16,5 +16,10 @@ namespace WhyLong
         {
             InitializeComponent();
         }
+
+        private void ГоллToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }
