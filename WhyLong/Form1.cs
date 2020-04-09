@@ -26,5 +26,11 @@ namespace WhyLong
         {
 
         }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            Authorization newForm = new Authorization();
+            newForm.Show();
+        }
     }
 }
