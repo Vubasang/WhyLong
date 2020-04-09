@@ -17,7 +17,7 @@ namespace WhyLong
         public DbSet<Person> Persons { get; set; }
         public DbSet<Genre> Genres { get; set; }
         public DbSet<Exhibition> Exhibitions { get; set; }
-        public DbSet<Employee> Employees { get; set; }
+        public DbSet<Employees> Employees { get; set; }
         public DbSet<Artist> Artist { get; set; }  
     }
 }
