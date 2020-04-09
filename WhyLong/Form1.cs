@@ -27,6 +27,7 @@ namespace WhyLong
 
         }
 
+<<<<<<< HEAD
         private void ОСайтеToolStripMenuItem_Click(object sender, EventArgs e)
         {
             aboutUs f = new aboutUs();
@@ -41,6 +42,12 @@ namespace WhyLong
             {
                 i = -i;
             }
+=======
+        private void button1_Click(object sender, EventArgs e)
+        {
+            Authorization newForm = new Authorization();
+            newForm.Show();
+>>>>>>> c2fca88dba247e2bef4b67ae3a0c47e12a52c2f8
         }
     }
 }
