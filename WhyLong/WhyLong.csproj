@@ -94,13 +94,6 @@
     <Compile Include="Picture.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-<<<<<<< HEAD
-    <Compile Include="register.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="register.Designer.cs">
-      <DependentUpon>register.cs</DependentUpon>
-=======
     <Compile Include="Authorization.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -112,7 +105,6 @@
     </Compile>
     <Compile Include="Registration.Designer.cs">
       <DependentUpon>Registration.cs</DependentUpon>
->>>>>>> c2fca88dba247e2bef4b67ae3a0c47e12a52c2f8
     </Compile>
     <Compile Include="UserContext.cs" />
     <EmbeddedResource Include="aboutUs.resx">
