@@ -27,5 +27,29 @@ namespace WhyLong
             Authorization newForm = new Authorization();
             newForm.Show();
         }
+
+        private void CheckBox1_CheckedChanged(object sender, EventArgs e)
+        {
+            if (checkBox1.Checked)
+            {
+                button1.Enabled = true;
+            }
+            else
+            {
+                button1.Enabled = false;
+            }
+        }
+
+        private void Button2_Click(object sender, EventArgs e)
+        {
+            privacyPolicy f = new privacyPolicy();
+            f.ShowDialog();
+        }
+
+        private void Label12_Click(object sender, EventArgs e)
+        {
+            Authorization f = new Authorization();
+            f.ShowDialog();
+        }
     }
 }

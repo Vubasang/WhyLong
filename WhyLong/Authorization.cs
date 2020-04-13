@@ -33,5 +33,17 @@ namespace WhyLong
             Form1 newForm = new Form1();
             newForm.Show();
         }
+
+        private void Button1_Click_1(object sender, EventArgs e)
+        {
+            Registration newForm = new Registration();
+            newForm.Show();
+        }
+
+        private void Button2_Click_1(object sender, EventArgs e)
+        {
+            Form1 newForm = new Form1();
+            newForm.Show();
+        }
     }
 }

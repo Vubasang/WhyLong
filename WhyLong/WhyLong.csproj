@@ -75,7 +75,19 @@
     <Compile Include="aboutUs.Designer.cs">
       <DependentUpon>aboutUs.cs</DependentUpon>
     </Compile>
+    <Compile Include="advertisement.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="advertisement.Designer.cs">
+      <DependentUpon>advertisement.cs</DependentUpon>
+    </Compile>
     <Compile Include="Artist.cs" />
+    <Compile Include="contacts.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="contacts.Designer.cs">
+      <DependentUpon>contacts.cs</DependentUpon>
+    </Compile>
     <Compile Include="Employees.cs" />
     <Compile Include="Exhibition.cs" />
     <Compile Include="Form1.cs">
@@ -85,6 +97,24 @@
       <DependentUpon>Form1.cs</DependentUpon>
     </Compile>
     <Compile Include="Genre.cs" />
+    <Compile Include="Idea.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Idea.Designer.cs">
+      <DependentUpon>Idea.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ourEmployees.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ourEmployees.Designer.cs">
+      <DependentUpon>ourEmployees.cs</DependentUpon>
+    </Compile>
+    <Compile Include="privacyPolicy.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="privacyPolicy.Designer.cs">
+      <DependentUpon>privacyPolicy.cs</DependentUpon>
+    </Compile>
     <Compile Include="Properties\Migrations\202003120212270_WhyLong1.cs" />
     <Compile Include="Properties\Migrations\202003120212270_WhyLong1.designer.cs">
       <DependentUpon>202003120212270_WhyLong1.cs</DependentUpon>
@@ -106,12 +136,39 @@
     <Compile Include="Registration.Designer.cs">
       <DependentUpon>Registration.cs</DependentUpon>
     </Compile>
+    <Compile Include="support.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="support.Designer.cs">
+      <DependentUpon>support.cs</DependentUpon>
+    </Compile>
+    <Compile Include="technicalSupport.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="technicalSupport.Designer.cs">
+      <DependentUpon>technicalSupport.cs</DependentUpon>
+    </Compile>
     <Compile Include="UserContext.cs" />
     <EmbeddedResource Include="aboutUs.resx">
       <DependentUpon>aboutUs.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="advertisement.resx">
+      <DependentUpon>advertisement.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="contacts.resx">
+      <DependentUpon>contacts.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Form1.resx">
       <DependentUpon>Form1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Idea.resx">
+      <DependentUpon>Idea.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ourEmployees.resx">
+      <DependentUpon>ourEmployees.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="privacyPolicy.resx">
+      <DependentUpon>privacyPolicy.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Migrations\202003120212270_WhyLong1.resx">
       <DependentUpon>202003120212270_WhyLong1.cs</DependentUpon>
@@ -124,12 +181,19 @@
     <Compile Include="Properties\Resources.Designer.cs">
       <AutoGen>True</AutoGen>
       <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
     </Compile>
     <EmbeddedResource Include="Authorization.resx">
       <DependentUpon>Authorization.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Registration.resx">
       <DependentUpon>Registration.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="support.resx">
+      <DependentUpon>support.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="technicalSupport.resx">
+      <DependentUpon>technicalSupport.cs</DependentUpon>
     </EmbeddedResource>
     <None Include="packages.config" />
     <None Include="Properties\Settings.settings">
@@ -163,6 +227,24 @@
       <ProductName>.NET Framework 3.5 SP1</ProductName>
       <Install>false</Install>
     </BootstrapperPackage>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ШангВу.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Арсен.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Миша.PNG" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Почта.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\сотовый.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Whatsaap.jpg" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <Target Name="EnsureNuGetPackageBuildImports" BeforeTargets="PrepareForBuild">

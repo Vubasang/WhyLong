@@ -117,7 +117,7 @@
   <resheader name="writer">
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
-  <metadata name="button2.GenerateMember" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
-    <value>False</value>
-  </metadata>
+  <data name="label3.Text" xml:space="preserve">
+    <value>          Качество размещения на сайте новых коллекций и их уникальность со временем растёт, требуя всё бóльших ресурсов на покупку, сбор, сортировку, проверку, обработку изображений и перевод их названий. Сайт существует почти полностью за счёт средств меценатов, и вы тоже можете внести свою лепту в его улучшение, пожертвовав любую сумму на развитие и пополнение коллекций.</value>
+  </data>
 </root>

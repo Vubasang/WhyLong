@@ -154,13 +154,13 @@
             this.контактыToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.поддержкаToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.рекламаНаСайтеToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.регистрацияToolStripMenuItem1 = new System.Windows.Forms.ToolStripMenuItem();
+            this.войтиToolStripMenuItem1 = new System.Windows.Forms.ToolStripMenuItem();
             this.регистрацияToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.войтиToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.panel1 = new System.Windows.Forms.Panel();
             this.label1 = new System.Windows.Forms.Label();
             this.timer1 = new System.Windows.Forms.Timer(this.components);
-            this.регистрацияToolStripMenuItem1 = new System.Windows.Forms.ToolStripMenuItem();
-            this.войтиToolStripMenuItem1 = new System.Windows.Forms.ToolStripMenuItem();
             this.menuStrip1.SuspendLayout();
             this.panel1.SuspendLayout();
             this.SuspendLayout();
@@ -995,12 +995,14 @@
             this.техподдержкаToolStripMenuItem.Name = "техподдержкаToolStripMenuItem";
             this.техподдержкаToolStripMenuItem.Size = new System.Drawing.Size(288, 26);
             this.техподдержкаToolStripMenuItem.Text = "Техподдержка";
+            this.техподдержкаToolStripMenuItem.Click += new System.EventHandler(this.ТехподдержкаToolStripMenuItem_Click);
             // 
             // естьИдеяИлиПредложениеToolStripMenuItem
             // 
             this.естьИдеяИлиПредложениеToolStripMenuItem.Name = "естьИдеяИлиПредложениеToolStripMenuItem";
             this.естьИдеяИлиПредложениеToolStripMenuItem.Size = new System.Drawing.Size(288, 26);
             this.естьИдеяИлиПредложениеToolStripMenuItem.Text = "Есть идея или предложение";
+            this.естьИдеяИлиПредложениеToolStripMenuItem.Click += new System.EventHandler(this.ЕстьИдеяИлиПредложениеToolStripMenuItem_Click);
             // 
             // чтотоНеРаботаетИлиНайденаОшибкаToolStripMenuItem
             // 
@@ -1041,68 +1043,37 @@
             // оСайтеToolStripMenuItem
             // 
             this.оСайтеToolStripMenuItem.Name = "оСайтеToolStripMenuItem";
-            this.оСайтеToolStripMenuItem.Size = new System.Drawing.Size(224, 26);
+            this.оСайтеToolStripMenuItem.Size = new System.Drawing.Size(230, 26);
             this.оСайтеToolStripMenuItem.Text = "О сайте";
             this.оСайтеToolStripMenuItem.Click += new System.EventHandler(this.ОСайтеToolStripMenuItem_Click);
             // 
             // нашиСотрудникиToolStripMenuItem
             // 
             this.нашиСотрудникиToolStripMenuItem.Name = "нашиСотрудникиToolStripMenuItem";
-            this.нашиСотрудникиToolStripMenuItem.Size = new System.Drawing.Size(224, 26);
+            this.нашиСотрудникиToolStripMenuItem.Size = new System.Drawing.Size(230, 26);
             this.нашиСотрудникиToolStripMenuItem.Text = "Наши сотрудники";
+            this.нашиСотрудникиToolStripMenuItem.Click += new System.EventHandler(this.НашиСотрудникиToolStripMenuItem_Click);
             // 
             // контактыToolStripMenuItem
             // 
             this.контактыToolStripMenuItem.Name = "контактыToolStripMenuItem";
-            this.контактыToolStripMenuItem.Size = new System.Drawing.Size(224, 26);
+            this.контактыToolStripMenuItem.Size = new System.Drawing.Size(230, 26);
             this.контактыToolStripMenuItem.Text = "Контакты";
+            this.контактыToolStripMenuItem.Click += new System.EventHandler(this.КонтактыToolStripMenuItem_Click);
             // 
             // поддержкаToolStripMenuItem
             // 
             this.поддержкаToolStripMenuItem.Name = "поддержкаToolStripMenuItem";
-            this.поддержкаToolStripMenuItem.Size = new System.Drawing.Size(224, 26);
-            this.поддержкаToolStripMenuItem.Text = "Поддержка ";
+            this.поддержкаToolStripMenuItem.Size = new System.Drawing.Size(230, 26);
+            this.поддержкаToolStripMenuItem.Text = "Поддержка проекту";
+            this.поддержкаToolStripMenuItem.Click += new System.EventHandler(this.ПоддержкаToolStripMenuItem_Click);
             // 
             // рекламаНаСайтеToolStripMenuItem
             // 
             this.рекламаНаСайтеToolStripMenuItem.Name = "рекламаНаСайтеToolStripMenuItem";
-            this.рекламаНаСайтеToolStripMenuItem.Size = new System.Drawing.Size(224, 26);
+            this.рекламаНаСайтеToolStripMenuItem.Size = new System.Drawing.Size(230, 26);
             this.рекламаНаСайтеToolStripMenuItem.Text = "Реклама на сайте";
-            // 
-            // регистрацияToolStripMenuItem
-            // 
-            this.регистрацияToolStripMenuItem.Name = "регистрацияToolStripMenuItem";
-            this.регистрацияToolStripMenuItem.Size = new System.Drawing.Size(32, 19);
-            // 
-            // войтиToolStripMenuItem
-            // 
-            this.войтиToolStripMenuItem.Name = "войтиToolStripMenuItem";
-            this.войтиToolStripMenuItem.Size = new System.Drawing.Size(32, 19);
-            // 
-            // panel1
-            // 
-            this.panel1.Controls.Add(this.label1);
-            this.panel1.Location = new System.Drawing.Point(16, 63);
-            this.panel1.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
-            this.panel1.Name = "panel1";
-            this.panel1.Size = new System.Drawing.Size(1452, 46);
-            this.panel1.TabIndex = 2;
-            // 
-            // label1
-            // 
-            this.label1.AutoSize = true;
-            this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 7.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.label1.Location = new System.Drawing.Point(40, 10);
-            this.label1.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
-            this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(293, 17);
-            this.label1.TabIndex = 0;
-            this.label1.Text = "ДОБРО ПОЖАЛОВАТЬ НА НАШ САЙТ!";
-            // 
-            // timer1
-            // 
-            this.timer1.Enabled = true;
-            this.timer1.Tick += new System.EventHandler(this.Timer1_Tick);
+            this.рекламаНаСайтеToolStripMenuItem.Click += new System.EventHandler(this.РекламаНаСайтеToolStripMenuItem_Click);
             // 
             // регистрацияToolStripMenuItem1
             // 
@@ -1118,6 +1089,41 @@
             this.войтиToolStripMenuItem1.Text = "Войти";
             this.войтиToolStripMenuItem1.Click += new System.EventHandler(this.ВойтиToolStripMenuItem1_Click);
             // 
+            // регистрацияToolStripMenuItem
+            // 
+            this.регистрацияToolStripMenuItem.Name = "регистрацияToolStripMenuItem";
+            this.регистрацияToolStripMenuItem.Size = new System.Drawing.Size(32, 19);
+            // 
+            // войтиToolStripMenuItem
+            // 
+            this.войтиToolStripMenuItem.Name = "войтиToolStripMenuItem";
+            this.войтиToolStripMenuItem.Size = new System.Drawing.Size(32, 19);
+            // 
+            // panel1
+            // 
+            this.panel1.Controls.Add(this.label1);
+            this.panel1.Location = new System.Drawing.Point(16, 39);
+            this.panel1.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.panel1.Name = "panel1";
+            this.panel1.Size = new System.Drawing.Size(1452, 29);
+            this.panel1.TabIndex = 2;
+            // 
+            // label1
+            // 
+            this.label1.AutoSize = true;
+            this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 7.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.label1.Location = new System.Drawing.Point(40, 6);
+            this.label1.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.label1.Name = "label1";
+            this.label1.Size = new System.Drawing.Size(293, 17);
+            this.label1.TabIndex = 0;
+            this.label1.Text = "ДОБРО ПОЖАЛОВАТЬ НА НАШ САЙТ!";
+            // 
+            // timer1
+            // 
+            this.timer1.Enabled = true;
+            this.timer1.Tick += new System.EventHandler(this.Timer1_Tick);
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
@@ -1126,8 +1132,9 @@
             this.Controls.Add(this.panel1);
             this.Controls.Add(this.menuStrip1);
             this.MainMenuStrip = this.menuStrip1;
-            this.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.Margin = new System.Windows.Forms.Padding(4);
             this.Name = "Form1";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Картинная галерея";
             this.menuStrip1.ResumeLayout(false);
             this.menuStrip1.PerformLayout();

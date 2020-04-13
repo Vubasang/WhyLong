@@ -55,5 +55,41 @@ namespace WhyLong
             Authorization f = new Authorization();
             f.ShowDialog();
         }
+
+        private void КонтактыToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            contacts f = new contacts();
+            f.ShowDialog();
+        }
+
+        private void НашиСотрудникиToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            ourEmployees f = new ourEmployees();
+            f.ShowDialog();
+        }
+
+        private void ПоддержкаToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            support f = new support();
+            f.ShowDialog();
+        }
+
+        private void РекламаНаСайтеToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            advertisement f = new advertisement();
+            f.ShowDialog();
+        }
+
+        private void ТехподдержкаToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            technicalSupport f = new technicalSupport();
+            f.ShowDialog();
+        }
+
+        private void ЕстьИдеяИлиПредложениеToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            Idea f = new Idea();
+            f.ShowDialog();
+        }
     }
 }

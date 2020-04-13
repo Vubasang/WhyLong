@@ -19,6 +19,7 @@ namespace WhyLong
 
         private void AboutUs_Load(object sender, EventArgs e)
         {
+            this.Size = new System.Drawing.Size(1040, 1302);
             //label2.Text = " «Стиль нашей жизни!" +
             //    "В жизни, в ученье, в искусстве, в работе!" +
             //    "Самое главное!-Это стремление к цели!" +
