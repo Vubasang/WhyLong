@@ -10,16 +10,11 @@ using System.Windows.Forms;
 
 namespace WhyLong
 {
-    public partial class Idea : Form
+    public partial class newThread : Form
     {
-        public Idea()
+        public newThread()
         {
             InitializeComponent();
-        }
-
-        private void Idea_Load(object sender, EventArgs e)
-        {
-            this.Size = new System.Drawing.Size(850, 1002);
         }
     }
 }

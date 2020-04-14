@@ -141,13 +141,9 @@
             this.концертыToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.какToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.форумToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.административныйРазделToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.техподдержкаToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.естьИдеяИлиПредложениеToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.чтотоНеРаботаетИлиНайденаОшибкаToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.найденаОшибкаToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.рекламаИПрочееToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.актуальноеНовыеСообщенияToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.информацияToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.оСайтеToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.нашиСотрудникиToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
@@ -973,60 +969,33 @@
             // форумToolStripMenuItem
             // 
             this.форумToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
-            this.административныйРазделToolStripMenuItem,
             this.техподдержкаToolStripMenuItem,
             this.естьИдеяИлиПредложениеToolStripMenuItem,
-            this.чтотоНеРаботаетИлиНайденаОшибкаToolStripMenuItem,
-            this.найденаОшибкаToolStripMenuItem,
-            this.рекламаИПрочееToolStripMenuItem,
-            this.актуальноеНовыеСообщенияToolStripMenuItem});
+            this.чтотоНеРаботаетИлиНайденаОшибкаToolStripMenuItem});
             this.форумToolStripMenuItem.Name = "форумToolStripMenuItem";
             this.форумToolStripMenuItem.Size = new System.Drawing.Size(70, 24);
             this.форумToolStripMenuItem.Text = "Форум";
             // 
-            // административныйРазделToolStripMenuItem
-            // 
-            this.административныйРазделToolStripMenuItem.Name = "административныйРазделToolStripMenuItem";
-            this.административныйРазделToolStripMenuItem.Size = new System.Drawing.Size(288, 26);
-            this.административныйРазделToolStripMenuItem.Text = "Административный раздел";
-            // 
             // техподдержкаToolStripMenuItem
             // 
             this.техподдержкаToolStripMenuItem.Name = "техподдержкаToolStripMenuItem";
-            this.техподдержкаToolStripMenuItem.Size = new System.Drawing.Size(288, 26);
+            this.техподдержкаToolStripMenuItem.Size = new System.Drawing.Size(377, 26);
             this.техподдержкаToolStripMenuItem.Text = "Техподдержка";
             this.техподдержкаToolStripMenuItem.Click += new System.EventHandler(this.ТехподдержкаToolStripMenuItem_Click);
             // 
             // естьИдеяИлиПредложениеToolStripMenuItem
             // 
             this.естьИдеяИлиПредложениеToolStripMenuItem.Name = "естьИдеяИлиПредложениеToolStripMenuItem";
-            this.естьИдеяИлиПредложениеToolStripMenuItem.Size = new System.Drawing.Size(288, 26);
+            this.естьИдеяИлиПредложениеToolStripMenuItem.Size = new System.Drawing.Size(377, 26);
             this.естьИдеяИлиПредложениеToolStripMenuItem.Text = "Есть идея или предложение";
             this.естьИдеяИлиПредложениеToolStripMenuItem.Click += new System.EventHandler(this.ЕстьИдеяИлиПредложениеToolStripMenuItem_Click);
             // 
             // чтотоНеРаботаетИлиНайденаОшибкаToolStripMenuItem
             // 
             this.чтотоНеРаботаетИлиНайденаОшибкаToolStripMenuItem.Name = "чтотоНеРаботаетИлиНайденаОшибкаToolStripMenuItem";
-            this.чтотоНеРаботаетИлиНайденаОшибкаToolStripMenuItem.Size = new System.Drawing.Size(288, 26);
-            this.чтотоНеРаботаетИлиНайденаОшибкаToolStripMenuItem.Text = "Что-то не работает ";
-            // 
-            // найденаОшибкаToolStripMenuItem
-            // 
-            this.найденаОшибкаToolStripMenuItem.Name = "найденаОшибкаToolStripMenuItem";
-            this.найденаОшибкаToolStripMenuItem.Size = new System.Drawing.Size(288, 26);
-            this.найденаОшибкаToolStripMenuItem.Text = "Найдена ошибка";
-            // 
-            // рекламаИПрочееToolStripMenuItem
-            // 
-            this.рекламаИПрочееToolStripMenuItem.Name = "рекламаИПрочееToolStripMenuItem";
-            this.рекламаИПрочееToolStripMenuItem.Size = new System.Drawing.Size(288, 26);
-            this.рекламаИПрочееToolStripMenuItem.Text = "Реклама и прочее";
-            // 
-            // актуальноеНовыеСообщенияToolStripMenuItem
-            // 
-            this.актуальноеНовыеСообщенияToolStripMenuItem.Name = "актуальноеНовыеСообщенияToolStripMenuItem";
-            this.актуальноеНовыеСообщенияToolStripMenuItem.Size = new System.Drawing.Size(288, 26);
-            this.актуальноеНовыеСообщенияToolStripMenuItem.Text = "Комментарии";
+            this.чтотоНеРаботаетИлиНайденаОшибкаToolStripMenuItem.Size = new System.Drawing.Size(377, 26);
+            this.чтотоНеРаботаетИлиНайденаОшибкаToolStripMenuItem.Text = "Что-то не работает или найдена ошибка";
+            this.чтотоНеРаботаетИлиНайденаОшибкаToolStripMenuItem.Click += new System.EventHandler(this.ЧтотоНеРаботаетИлиНайденаОшибкаToolStripMenuItem_Click);
             // 
             // информацияToolStripMenuItem
             // 
@@ -1258,13 +1227,9 @@
         private System.Windows.Forms.ToolStripMenuItem концертыToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem какToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem форумToolStripMenuItem;
-        private System.Windows.Forms.ToolStripMenuItem административныйРазделToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem техподдержкаToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem естьИдеяИлиПредложениеToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem чтотоНеРаботаетИлиНайденаОшибкаToolStripMenuItem;
-        private System.Windows.Forms.ToolStripMenuItem найденаОшибкаToolStripMenuItem;
-        private System.Windows.Forms.ToolStripMenuItem рекламаИПрочееToolStripMenuItem;
-        private System.Windows.Forms.ToolStripMenuItem актуальноеНовыеСообщенияToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem информацияToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem оСайтеToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem нашиСотрудникиToolStripMenuItem;

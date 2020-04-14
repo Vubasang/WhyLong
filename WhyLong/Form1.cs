@@ -91,5 +91,11 @@ namespace WhyLong
             Idea f = new Idea();
             f.ShowDialog();
         }
+
+        private void ЧтотоНеРаботаетИлиНайденаОшибкаToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            SomethingIsNotWorking f = new SomethingIsNotWorking();
+            f.ShowDialog();
+        }
     }
 }

@@ -103,6 +103,16 @@ namespace WhyLong.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap создать {
+            get {
+                object obj = ResourceManager.GetObject("создать", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap сотовый {
             get {
                 object obj = ResourceManager.GetObject("сотовый", resourceCulture);
