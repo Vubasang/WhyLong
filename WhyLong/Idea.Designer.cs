@@ -48,7 +48,6 @@
             this.label13 = new System.Windows.Forms.Label();
             this.label14 = new System.Windows.Forms.Label();
             this.textBox6 = new System.Windows.Forms.TextBox();
-            this.label15 = new System.Windows.Forms.Label();
             this.label16 = new System.Windows.Forms.Label();
             this.button1 = new System.Windows.Forms.Button();
             this.SuspendLayout();
@@ -234,8 +233,8 @@
             this.label14.Name = "label14";
             this.label14.Size = new System.Drawing.Size(755, 44);
             this.label14.TabIndex = 21;
-            this.label14.Text = "Чтобы вы хотели увидеть в нашей студии? Какую то особую тематическую вечеринку? И" +
-    "ли хотели бы научиться какому то особому танцевальному стилю?";
+            this.label14.Text = "Если у вас есть отзыв, положительный :) или отрицательный :(, или есть замечание " +
+    "по работе, поделитесь с нами.";
             // 
             // textBox6
             // 
@@ -245,32 +244,21 @@
             this.textBox6.Size = new System.Drawing.Size(752, 100);
             this.textBox6.TabIndex = 20;
             // 
-            // label15
-            // 
-            this.label15.AutoSize = true;
-            this.label15.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.label15.ForeColor = System.Drawing.Color.Red;
-            this.label15.Location = new System.Drawing.Point(653, 708);
-            this.label15.Name = "label15";
-            this.label15.Size = new System.Drawing.Size(18, 24);
-            this.label15.TabIndex = 19;
-            this.label15.Text = "*";
-            // 
             // label16
             // 
             this.label16.AutoSize = true;
             this.label16.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.label16.Location = new System.Drawing.Point(461, 710);
+            this.label16.Location = new System.Drawing.Point(416, 710);
             this.label16.Name = "label16";
-            this.label16.Size = new System.Drawing.Size(186, 24);
+            this.label16.Size = new System.Drawing.Size(299, 24);
             this.label16.TabIndex = 18;
-            this.label16.Text = "Ваши пожелания?";
+            this.label16.Text = "Замечания по работе студии";
             // 
             // button1
             // 
             this.button1.BackColor = System.Drawing.Color.Lime;
             this.button1.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.button1.Location = new System.Drawing.Point(495, 906);
+            this.button1.Location = new System.Drawing.Point(495, 904);
             this.button1.Name = "button1";
             this.button1.Size = new System.Drawing.Size(136, 58);
             this.button1.TabIndex = 22;
@@ -285,7 +273,6 @@
             this.Controls.Add(this.button1);
             this.Controls.Add(this.label14);
             this.Controls.Add(this.textBox6);
-            this.Controls.Add(this.label15);
             this.Controls.Add(this.label16);
             this.Controls.Add(this.label13);
             this.Controls.Add(this.textBox5);
@@ -336,7 +323,6 @@
         private System.Windows.Forms.Label label13;
         private System.Windows.Forms.Label label14;
         private System.Windows.Forms.TextBox textBox6;
-        private System.Windows.Forms.Label label15;
         private System.Windows.Forms.Label label16;
         private System.Windows.Forms.Button button1;
     }

@@ -49,8 +49,23 @@
             this.textBox3 = new System.Windows.Forms.TextBox();
             this.textBox2 = new System.Windows.Forms.TextBox();
             this.textBox1 = new System.Windows.Forms.TextBox();
+            this.label13 = new System.Windows.Forms.Label();
+            this.label14 = new System.Windows.Forms.Label();
             button2 = new System.Windows.Forms.Button();
             this.SuspendLayout();
+            // 
+            // button2
+            // 
+            button2.Font = new System.Drawing.Font("Microsoft Sans Serif", 7.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            button2.ForeColor = System.Drawing.Color.MediumBlue;
+            button2.Location = new System.Drawing.Point(463, 482);
+            button2.Name = "button2";
+            button2.Size = new System.Drawing.Size(404, 46);
+            button2.TabIndex = 40;
+            button2.Text = "Соглашение о политике конфиденциальности, хранении и обработке персональной инфор" +
+    "мации участников сайта ";
+            button2.UseVisualStyleBackColor = false;
+            button2.Click += new System.EventHandler(this.Button2_Click);
             // 
             // label12
             // 
@@ -73,19 +88,6 @@
             this.label6.Size = new System.Drawing.Size(177, 24);
             this.label6.TabIndex = 41;
             this.label6.Text = "Уже есть аккаунт?";
-            // 
-            // button2
-            // 
-            button2.Font = new System.Drawing.Font("Microsoft Sans Serif", 7.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            button2.ForeColor = System.Drawing.Color.MediumBlue;
-            button2.Location = new System.Drawing.Point(463, 482);
-            button2.Name = "button2";
-            button2.Size = new System.Drawing.Size(404, 46);
-            button2.TabIndex = 40;
-            button2.Text = "Соглашение о политике конфиденциальности, хранении и обработке персональной инфор" +
-    "мации участников сайта ";
-            button2.UseVisualStyleBackColor = false;
-            button2.Click += new System.EventHandler(this.Button2_Click);
             // 
             // checkBox1
             // 
@@ -262,11 +264,35 @@
             this.textBox1.Size = new System.Drawing.Size(501, 22);
             this.textBox1.TabIndex = 22;
             // 
+            // label13
+            // 
+            this.label13.AutoSize = true;
+            this.label13.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.label13.ForeColor = System.Drawing.Color.Red;
+            this.label13.Location = new System.Drawing.Point(217, 284);
+            this.label13.Name = "label13";
+            this.label13.Size = new System.Drawing.Size(16, 20);
+            this.label13.TabIndex = 43;
+            this.label13.Text = "*";
+            // 
+            // label14
+            // 
+            this.label14.AutoSize = true;
+            this.label14.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.label14.ForeColor = System.Drawing.Color.Red;
+            this.label14.Location = new System.Drawing.Point(227, 338);
+            this.label14.Name = "label14";
+            this.label14.Size = new System.Drawing.Size(16, 20);
+            this.label14.TabIndex = 44;
+            this.label14.Text = "*";
+            // 
             // Registration
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(1112, 746);
+            this.Controls.Add(this.label14);
+            this.Controls.Add(this.label13);
             this.Controls.Add(this.label12);
             this.Controls.Add(this.label6);
             this.Controls.Add(button2);
@@ -288,7 +314,7 @@
             this.Controls.Add(this.textBox3);
             this.Controls.Add(this.textBox2);
             this.Controls.Add(this.textBox1);
-            this.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.Margin = new System.Windows.Forms.Padding(4);
             this.Name = "Registration";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Registration";
@@ -319,5 +345,7 @@
         private System.Windows.Forms.TextBox textBox3;
         private System.Windows.Forms.TextBox textBox2;
         private System.Windows.Forms.TextBox textBox1;
+        private System.Windows.Forms.Label label13;
+        private System.Windows.Forms.Label label14;
     }
 }
