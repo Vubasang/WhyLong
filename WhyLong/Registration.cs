@@ -7,7 +7,8 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
-
+using System.Data.SqlClient;
+using System.Data;
 namespace WhyLong
 {
     public partial class Registration : Form
@@ -54,7 +55,34 @@ namespace WhyLong
 
         private void button1_Click_1(object sender, EventArgs e)
         {
-
+            if (txtUserName.Text == "")
+            {
+                MessageBox.Show("Пожадуйста, заполните поле Логин", "Запрос", MessageBoxButtons.OK, MessageBoxIcon.Information);
+            }
+            else
+            {
+                if (txtPassword.Text == "")
+                {
+                    MessageBox.Show("Пожадуйста, заполните поле Пароль", "Запрос", MessageBoxButtons.OK, MessageBoxIcon.Information);
+                }
+                else
+                {
+                    if (txtPassword.Text != txtConfirmPassword.Text)
+                    {
+                        MessageBox.Show("Введённые пароли не совпадают", "Уведомление", MessageBoxButtons.OK, MessageBoxIcon.Information);
+                    }
+                    else
+                    {
+                        
+                        MessageBox.Show("регистрация прошла успешно!", "Уведомление", MessageBoxButtons.OK, MessageBoxIcon.Information);
+                        Clear();
+                    }
+                }
+            }
+        }
+        void Clear()
+        {
+            txtName.Text = txtPhone.Text = txtEmail.Text = txtUserName.Text = txtPassword.Text = txtConfirmPassword.Text = "";
         }
     }
 }
