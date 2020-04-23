@@ -58,16 +58,16 @@
             // 
             button2.Font = new System.Drawing.Font("Microsoft Sans Serif", 7.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             button2.ForeColor = System.Drawing.Color.MediumBlue;
-<<<<<<< HEAD
+
             button2.Location = new System.Drawing.Point(463, 482);
             button2.Name = "button2";
             button2.Size = new System.Drawing.Size(404, 46);
-=======
+
             button2.Location = new System.Drawing.Point(347, 392);
             button2.Margin = new System.Windows.Forms.Padding(2);
             button2.Name = "button2";
             button2.Size = new System.Drawing.Size(303, 37);
->>>>>>> 4b5d3761e637de2a968489d3b433519ba44f6d4b
+
             button2.TabIndex = 40;
             button2.Text = "Соглашение о политике конфиденциальности, хранении и обработке персональной инфор" +
     "мации участников сайта ";
@@ -294,13 +294,13 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-<<<<<<< HEAD
+
             this.ClientSize = new System.Drawing.Size(1112, 746);
             this.Controls.Add(this.label14);
             this.Controls.Add(this.label13);
-=======
+
             this.ClientSize = new System.Drawing.Size(834, 606);
->>>>>>> 4b5d3761e637de2a968489d3b433519ba44f6d4b
+
             this.Controls.Add(this.label12);
             this.Controls.Add(this.label6);
             this.Controls.Add(button2);
@@ -322,10 +322,9 @@
             this.Controls.Add(this.textBox3);
             this.Controls.Add(this.textBox2);
             this.Controls.Add(this.textBox1);
-<<<<<<< HEAD
+
             this.Margin = new System.Windows.Forms.Padding(4);
-=======
->>>>>>> 4b5d3761e637de2a968489d3b433519ba44f6d4b
+
             this.Name = "Registration";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Registration";
