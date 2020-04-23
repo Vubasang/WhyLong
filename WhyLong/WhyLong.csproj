@@ -103,6 +103,7 @@
     <Compile Include="Idea.Designer.cs">
       <DependentUpon>Idea.cs</DependentUpon>
     </Compile>
+    <Compile Include="MyDbContext.cs" />
     <Compile Include="newThread.cs">
       <SubType>Form</SubType>
     </Compile>

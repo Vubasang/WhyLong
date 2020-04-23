@@ -57,7 +57,7 @@
             button2.Font = new System.Drawing.Font("Microsoft Sans Serif", 7.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             button2.ForeColor = System.Drawing.Color.MediumBlue;
             button2.Location = new System.Drawing.Point(347, 392);
-            button2.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            button2.Margin = new System.Windows.Forms.Padding(2);
             button2.Name = "button2";
             button2.Size = new System.Drawing.Size(303, 37);
             button2.TabIndex = 40;
@@ -94,7 +94,7 @@
             // 
             this.checkBox1.AutoSize = true;
             this.checkBox1.Location = new System.Drawing.Point(347, 370);
-            this.checkBox1.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.checkBox1.Margin = new System.Windows.Forms.Padding(2);
             this.checkBox1.Name = "checkBox1";
             this.checkBox1.Size = new System.Drawing.Size(245, 17);
             this.checkBox1.TabIndex = 39;
@@ -166,6 +166,7 @@
             this.button1.TabIndex = 33;
             this.button1.Text = "Зарегистрироваться";
             this.button1.UseVisualStyleBackColor = true;
+            this.button1.Click += new System.EventHandler(this.button1_Click_1);
             // 
             // label5
             // 
