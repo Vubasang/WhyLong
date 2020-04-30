@@ -73,19 +73,26 @@ namespace WhyLong
                     }
                     else
                     {
-                        SqlConnection conn = new SqlConnection(@"Data Source=DESKTOP-TAL0KGO\SQLEXPRESS;Initial Catalog=WhyLong;Integrated Security=True");
-                        SqlCommand cmd = new SqlCommand(@"INSERT INTO [dbo].[Users]
+                        try
+                        {
+                            SqlConnection conn = new SqlConnection(@"Data Source=DESKTOP-TAL0KGO\SQLEXPRESS;Initial Catalog=WhyLong;Integrated Security=True");
+                            SqlCommand cmd = new SqlCommand(@"INSERT INTO [dbo].[Users]
                         ([Name]
                         ,[Phone]
                         ,[Email]
                         ,[UserName]
                         ,[Password])
                     VALUES
-                        ('"+txtName.Text+ "', '" + txtPhone.Text + "', '" + txtEmail.Text + "', '" + txtUserName.Text + "', '" + txtPassword.Text + "' )", conn);
-                        conn.Open();
-                        cmd.ExecuteNonQuery();
-                        MessageBox.Show("регистрация прошла успешно!", "Уведомление", MessageBoxButtons.OK, MessageBoxIcon.Information);
-                        Clear();
+                        ('" + txtName.Text + "', '" + txtPhone.Text + "', '" + txtEmail.Text + "', '" + txtUserName.Text + "', '" + txtPassword.Text + "' )", conn);
+                            conn.Open();
+                            cmd.ExecuteNonQuery();
+                            MessageBox.Show("регистрация прошла успешно!", "Уведомление", MessageBoxButtons.OK, MessageBoxIcon.Information);
+                            Clear();
+                        }
+                        catch (Exception ex)
+                        {
+                            MessageBox.Show("Ошибка подключения", "Уведомление", MessageBoxButtons.OK, MessageBoxIcon.Information);
+                        }
                     }
                 }
             }

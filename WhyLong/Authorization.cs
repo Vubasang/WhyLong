@@ -70,6 +70,8 @@ namespace WhyLong
                         {
                             Form1 newForm = new Form1();
                             newForm.Show();
+                            txtLogin.Text = "";
+                            txtPassword.Text = "";
                         }
                         else
                         {

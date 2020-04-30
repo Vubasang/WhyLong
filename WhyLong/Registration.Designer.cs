@@ -156,7 +156,7 @@
             this.button1.Enabled = false;
             this.button1.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.button1.Location = new System.Drawing.Point(463, 546);
-            this.button1.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.button1.Margin = new System.Windows.Forms.Padding(4);
             this.button1.Name = "button1";
             this.button1.Size = new System.Drawing.Size(404, 38);
             this.button1.TabIndex = 33;
@@ -222,7 +222,7 @@
             // txtConfirmPassword
             // 
             this.txtConfirmPassword.Location = new System.Drawing.Point(463, 390);
-            this.txtConfirmPassword.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.txtConfirmPassword.Margin = new System.Windows.Forms.Padding(4);
             this.txtConfirmPassword.Name = "txtConfirmPassword";
             this.txtConfirmPassword.Size = new System.Drawing.Size(501, 22);
             this.txtConfirmPassword.TabIndex = 27;
@@ -231,7 +231,7 @@
             // txtPassword
             // 
             this.txtPassword.Location = new System.Drawing.Point(463, 334);
-            this.txtPassword.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.txtPassword.Margin = new System.Windows.Forms.Padding(4);
             this.txtPassword.Name = "txtPassword";
             this.txtPassword.Size = new System.Drawing.Size(501, 22);
             this.txtPassword.TabIndex = 26;
@@ -240,7 +240,7 @@
             // txtUserName
             // 
             this.txtUserName.Location = new System.Drawing.Point(463, 281);
-            this.txtUserName.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.txtUserName.Margin = new System.Windows.Forms.Padding(4);
             this.txtUserName.Name = "txtUserName";
             this.txtUserName.Size = new System.Drawing.Size(501, 22);
             this.txtUserName.TabIndex = 25;
@@ -248,7 +248,7 @@
             // txtEmail
             // 
             this.txtEmail.Location = new System.Drawing.Point(467, 198);
-            this.txtEmail.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.txtEmail.Margin = new System.Windows.Forms.Padding(4);
             this.txtEmail.Name = "txtEmail";
             this.txtEmail.Size = new System.Drawing.Size(501, 22);
             this.txtEmail.TabIndex = 24;
@@ -256,7 +256,7 @@
             // txtPhone
             // 
             this.txtPhone.Location = new System.Drawing.Point(467, 135);
-            this.txtPhone.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.txtPhone.Margin = new System.Windows.Forms.Padding(4);
             this.txtPhone.Name = "txtPhone";
             this.txtPhone.Size = new System.Drawing.Size(501, 22);
             this.txtPhone.TabIndex = 23;
@@ -264,7 +264,7 @@
             // txtName
             // 
             this.txtName.Location = new System.Drawing.Point(467, 81);
-            this.txtName.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.txtName.Margin = new System.Windows.Forms.Padding(4);
             this.txtName.Name = "txtName";
             this.txtName.Size = new System.Drawing.Size(501, 22);
             this.txtName.TabIndex = 22;
@@ -274,7 +274,7 @@
             this.label13.AutoSize = true;
             this.label13.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.label13.ForeColor = System.Drawing.Color.Red;
-            this.label13.Location = new System.Drawing.Point(222, 283);
+            this.label13.Location = new System.Drawing.Point(219, 284);
             this.label13.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label13.Name = "label13";
             this.label13.Size = new System.Drawing.Size(16, 20);
@@ -286,7 +286,7 @@
             this.label14.AutoSize = true;
             this.label14.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.label14.ForeColor = System.Drawing.Color.Red;
-            this.label14.Location = new System.Drawing.Point(235, 336);
+            this.label14.Location = new System.Drawing.Point(230, 337);
             this.label14.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label14.Name = "label14";
             this.label14.Size = new System.Drawing.Size(16, 20);
@@ -321,7 +321,7 @@
             this.Controls.Add(this.txtEmail);
             this.Controls.Add(this.txtPhone);
             this.Controls.Add(this.txtName);
-            this.Margin = new System.Windows.Forms.Padding(5, 5, 5, 5);
+            this.Margin = new System.Windows.Forms.Padding(5);
             this.Name = "Registration";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Registration";
