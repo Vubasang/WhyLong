@@ -103,6 +103,12 @@
     <Compile Include="Idea.Designer.cs">
       <DependentUpon>Idea.cs</DependentUpon>
     </Compile>
+    <Compile Include="LoginForEmployees.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="LoginForEmployees.Designer.cs">
+      <DependentUpon>LoginForEmployees.cs</DependentUpon>
+    </Compile>
     <Compile Include="MyDbContext.cs" />
     <Compile Include="newThread.cs">
       <SubType>Form</SubType>
@@ -181,6 +187,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Idea.resx">
       <DependentUpon>Idea.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="LoginForEmployees.resx">
+      <DependentUpon>LoginForEmployees.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="newThread.resx">
       <DependentUpon>newThread.cs</DependentUpon>

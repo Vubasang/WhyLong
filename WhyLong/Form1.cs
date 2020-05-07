@@ -97,5 +97,11 @@ namespace WhyLong
             SomethingIsNotWorking f = new SomethingIsNotWorking();
             f.ShowDialog();
         }
+
+        private void ВойтиДляСотрудниковToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            LoginForEmployees f = new LoginForEmployees();
+            f.ShowDialog();
+        }
     }
 }

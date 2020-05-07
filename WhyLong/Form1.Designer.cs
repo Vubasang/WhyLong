@@ -157,6 +157,7 @@
             this.panel1 = new System.Windows.Forms.Panel();
             this.label1 = new System.Windows.Forms.Label();
             this.timer1 = new System.Windows.Forms.Timer(this.components);
+            this.войтиДляСотрудниковToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.menuStrip1.SuspendLayout();
             this.panel1.SuspendLayout();
             this.SuspendLayout();
@@ -173,11 +174,12 @@
             this.форумToolStripMenuItem,
             this.информацияToolStripMenuItem,
             this.регистрацияToolStripMenuItem1,
-            this.войтиToolStripMenuItem1});
+            this.войтиToolStripMenuItem1,
+            this.войтиДляСотрудниковToolStripMenuItem});
             this.menuStrip1.Location = new System.Drawing.Point(0, 0);
             this.menuStrip1.Name = "menuStrip1";
             this.menuStrip1.Padding = new System.Windows.Forms.Padding(5, 2, 0, 2);
-            this.menuStrip1.Size = new System.Drawing.Size(1113, 28);
+            this.menuStrip1.Size = new System.Drawing.Size(1307, 28);
             this.menuStrip1.TabIndex = 1;
             this.menuStrip1.Text = "menuStrip1";
             // 
@@ -199,7 +201,7 @@
             this.музеиМираToolStripMenuItem,
             this.каталогToolStripMenuItem});
             this.картиныToolStripMenuItem.Name = "картиныToolStripMenuItem";
-            this.картиныToolStripMenuItem.Size = new System.Drawing.Size(153, 26);
+            this.картиныToolStripMenuItem.Size = new System.Drawing.Size(224, 26);
             this.картиныToolStripMenuItem.Text = "Картины";
             // 
             // картинаяГареToolStripMenuItem
@@ -589,7 +591,7 @@
             this.фильмыОХудожникахToolStripMenuItem,
             this.учимсяРисоватьToolStripMenuItem});
             this.историяToolStripMenuItem.Name = "историяToolStripMenuItem";
-            this.историяToolStripMenuItem.Size = new System.Drawing.Size(153, 26);
+            this.историяToolStripMenuItem.Size = new System.Drawing.Size(224, 26);
             this.историяToolStripMenuItem.Text = "История";
             // 
             // биографииToolStripMenuItem
@@ -639,7 +641,7 @@
             this.детскиеРисункиToolStripMenuItem,
             this.дизайнОдеждыToolStripMenuItem});
             this.экToolStripMenuItem.Name = "экToolStripMenuItem";
-            this.экToolStripMenuItem.Size = new System.Drawing.Size(175, 26);
+            this.экToolStripMenuItem.Size = new System.Drawing.Size(224, 26);
             this.экToolStripMenuItem.Text = "Экспозиция";
             // 
             // живописьToolStripMenuItem1
@@ -738,7 +740,7 @@
             this.работыНаПродажуToolStripMenuItem,
             this.каталогАвторовToolStripMenuItem});
             this.магазинToolStripMenuItem.Name = "магазинToolStripMenuItem";
-            this.магазинToolStripMenuItem.Size = new System.Drawing.Size(175, 26);
+            this.магазинToolStripMenuItem.Size = new System.Drawing.Size(224, 26);
             this.магазинToolStripMenuItem.Text = "Магазин";
             // 
             // работыНаПродажуToolStripMenuItem
@@ -760,7 +762,7 @@
             this.топ100ToolStripMenuItem,
             this.бесплатныйФотобанкToolStripMenuItem});
             this.обществоToolStripMenuItem.Name = "обществоToolStripMenuItem";
-            this.обществоToolStripMenuItem.Size = new System.Drawing.Size(175, 26);
+            this.обществоToolStripMenuItem.Size = new System.Drawing.Size(224, 26);
             this.обществоToolStripMenuItem.Text = "Общество";
             // 
             // ленаToolStripMenuItem
@@ -1093,11 +1095,18 @@
             this.timer1.Enabled = true;
             this.timer1.Tick += new System.EventHandler(this.Timer1_Tick);
             // 
+            // войтиДляСотрудниковToolStripMenuItem
+            // 
+            this.войтиДляСотрудниковToolStripMenuItem.Name = "войтиДляСотрудниковToolStripMenuItem";
+            this.войтиДляСотрудниковToolStripMenuItem.Size = new System.Drawing.Size(185, 24);
+            this.войтиДляСотрудниковToolStripMenuItem.Text = "Войти для сотрудников";
+            this.войтиДляСотрудниковToolStripMenuItem.Click += new System.EventHandler(this.ВойтиДляСотрудниковToolStripMenuItem_Click);
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(1113, 594);
+            this.ClientSize = new System.Drawing.Size(1307, 594);
             this.Controls.Add(this.panel1);
             this.Controls.Add(this.menuStrip1);
             this.MainMenuStrip = this.menuStrip1;
@@ -1244,6 +1253,7 @@
         private System.Windows.Forms.Timer timer1;
         private System.Windows.Forms.ToolStripMenuItem регистрацияToolStripMenuItem1;
         private System.Windows.Forms.ToolStripMenuItem войтиToolStripMenuItem1;
+        private System.Windows.Forms.ToolStripMenuItem войтиДляСотрудниковToolStripMenuItem;
 
         //private System.Windows.Forms.Button button1;
 
