@@ -56,6 +56,10 @@
       <HintPath>..\packages\EntityFramework.6.4.0\lib\net45\EntityFramework.SqlServer.dll</HintPath>
       <Private>True</Private>
     </Reference>
+    <Reference Include="Microsoft.Office.Interop.Excel, Version=15.0.0.0, Culture=neutral, PublicKeyToken=71e9bce111e9429c, processorArchitecture=MSIL">
+      <HintPath>..\packages\Microsoft.Office.Interop.Excel.15.0.4795.1000\lib\net20\Microsoft.Office.Interop.Excel.dll</HintPath>
+      <EmbedInteropTypes>True</EmbedInteropTypes>
+    </Reference>
     <Reference Include="System" />
     <Reference Include="System.ComponentModel.DataAnnotations" />
     <Reference Include="System.Core" />
@@ -75,6 +79,8 @@
     <Compile Include="aboutUs.Designer.cs">
       <DependentUpon>aboutUs.cs</DependentUpon>
     </Compile>
+    <Compile Include="AdminsBLL.cs" />
+    <Compile Include="AdminsDAL.cs" />
     <Compile Include="advertisement.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -88,6 +94,7 @@
     <Compile Include="contacts.Designer.cs">
       <DependentUpon>contacts.cs</DependentUpon>
     </Compile>
+    <Compile Include="DataConnection.cs" />
     <Compile Include="Employees.cs" />
     <Compile Include="Exhibition.cs" />
     <Compile Include="Form1.cs">
@@ -102,6 +109,12 @@
     </Compile>
     <Compile Include="Idea.Designer.cs">
       <DependentUpon>Idea.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ListOfEmployees.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ListOfEmployees.Designer.cs">
+      <DependentUpon>ListOfEmployees.cs</DependentUpon>
     </Compile>
     <Compile Include="LoginForEmployees.cs">
       <SubType>Form</SubType>
@@ -154,6 +167,12 @@
     <Compile Include="Registration.Designer.cs">
       <DependentUpon>Registration.cs</DependentUpon>
     </Compile>
+    <Compile Include="siteManagement.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="siteManagement.Designer.cs">
+      <DependentUpon>siteManagement.cs</DependentUpon>
+    </Compile>
     <Compile Include="SomethingIsNotWorking.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -166,6 +185,7 @@
     <Compile Include="support.Designer.cs">
       <DependentUpon>support.cs</DependentUpon>
     </Compile>
+    <Compile Include="Admins.cs" />
     <Compile Include="technicalSupport.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -187,6 +207,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Idea.resx">
       <DependentUpon>Idea.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ListOfEmployees.resx">
+      <DependentUpon>ListOfEmployees.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="LoginForEmployees.resx">
       <DependentUpon>LoginForEmployees.cs</DependentUpon>
@@ -213,6 +236,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Registration.resx">
       <DependentUpon>Registration.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="siteManagement.resx">
+      <DependentUpon>siteManagement.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="SomethingIsNotWorking.resx">
       <DependentUpon>SomethingIsNotWorking.cs</DependentUpon>
@@ -276,6 +302,26 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="Resources\создать.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <COMReference Include="Microsoft.Office.Core">
+      <Guid>{2DF8D04C-5BFA-101B-BDE5-00AA0044DE52}</Guid>
+      <VersionMajor>2</VersionMajor>
+      <VersionMinor>8</VersionMinor>
+      <Lcid>0</Lcid>
+      <WrapperTool>primary</WrapperTool>
+      <Isolated>False</Isolated>
+      <EmbedInteropTypes>True</EmbedInteropTypes>
+    </COMReference>
+    <COMReference Include="VBIDE">
+      <Guid>{0002E157-0000-0000-C000-000000000046}</Guid>
+      <VersionMajor>5</VersionMajor>
+      <VersionMinor>3</VersionMinor>
+      <Lcid>0</Lcid>
+      <WrapperTool>primary</WrapperTool>
+      <Isolated>False</Isolated>
+      <EmbedInteropTypes>True</EmbedInteropTypes>
+    </COMReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <Target Name="EnsureNuGetPackageBuildImports" BeforeTargets="PrepareForBuild">

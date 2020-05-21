@@ -45,7 +45,7 @@ namespace WhyLong
                         SqlDataReader data = cmd.ExecuteReader();
                         if (data.Read() == true)
                         {
-                            Form1 newForm = new Form1();
+                            siteManagement newForm = new siteManagement();
                             newForm.Show();
                             txtLogin.Text = "";
                             txtPassword.Text = "";
