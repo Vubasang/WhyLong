@@ -37,17 +37,17 @@
             this.label7 = new System.Windows.Forms.Label();
             this.label8 = new System.Windows.Forms.Label();
             this.label9 = new System.Windows.Forms.Label();
-            this.textBox1 = new System.Windows.Forms.TextBox();
-            this.textBox2 = new System.Windows.Forms.TextBox();
-            this.textBox3 = new System.Windows.Forms.TextBox();
-            this.textBox4 = new System.Windows.Forms.TextBox();
+            this.txtFullName = new System.Windows.Forms.TextBox();
+            this.txtPhone = new System.Windows.Forms.TextBox();
+            this.txtEmail = new System.Windows.Forms.TextBox();
+            this.txtIdeas = new System.Windows.Forms.TextBox();
             this.label10 = new System.Windows.Forms.Label();
             this.label11 = new System.Windows.Forms.Label();
             this.label12 = new System.Windows.Forms.Label();
-            this.textBox5 = new System.Windows.Forms.TextBox();
+            this.txtWishes = new System.Windows.Forms.TextBox();
             this.label13 = new System.Windows.Forms.Label();
             this.label14 = new System.Windows.Forms.Label();
-            this.textBox6 = new System.Windows.Forms.TextBox();
+            this.txtNotes = new System.Windows.Forms.TextBox();
             this.label16 = new System.Windows.Forms.Label();
             this.button1 = new System.Windows.Forms.Button();
             this.SuspendLayout();
@@ -98,11 +98,11 @@
             // 
             this.label5.AutoSize = true;
             this.label5.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.label5.Location = new System.Drawing.Point(509, 101);
+            this.label5.Location = new System.Drawing.Point(505, 101);
             this.label5.Name = "label5";
-            this.label5.Size = new System.Drawing.Size(104, 24);
+            this.label5.Size = new System.Drawing.Size(114, 24);
             this.label5.TabIndex = 4;
-            this.label5.Text = "Ваше имя";
+            this.label5.Text = "Ваше ФИО";
             // 
             // label6
             // 
@@ -145,37 +145,37 @@
             this.label9.TabIndex = 8;
             this.label9.Text = "*";
             // 
-            // textBox1
+            // txtFullName
             // 
-            this.textBox1.Location = new System.Drawing.Point(180, 128);
-            this.textBox1.Multiline = true;
-            this.textBox1.Name = "textBox1";
-            this.textBox1.Size = new System.Drawing.Size(752, 30);
-            this.textBox1.TabIndex = 9;
+            this.txtFullName.Location = new System.Drawing.Point(180, 128);
+            this.txtFullName.Multiline = true;
+            this.txtFullName.Name = "txtFullName";
+            this.txtFullName.Size = new System.Drawing.Size(752, 30);
+            this.txtFullName.TabIndex = 9;
             // 
-            // textBox2
+            // txtPhone
             // 
-            this.textBox2.Location = new System.Drawing.Point(180, 200);
-            this.textBox2.Multiline = true;
-            this.textBox2.Name = "textBox2";
-            this.textBox2.Size = new System.Drawing.Size(752, 30);
-            this.textBox2.TabIndex = 10;
+            this.txtPhone.Location = new System.Drawing.Point(180, 200);
+            this.txtPhone.Multiline = true;
+            this.txtPhone.Name = "txtPhone";
+            this.txtPhone.Size = new System.Drawing.Size(752, 30);
+            this.txtPhone.TabIndex = 10;
             // 
-            // textBox3
+            // txtEmail
             // 
-            this.textBox3.Location = new System.Drawing.Point(180, 275);
-            this.textBox3.Multiline = true;
-            this.textBox3.Name = "textBox3";
-            this.textBox3.Size = new System.Drawing.Size(752, 30);
-            this.textBox3.TabIndex = 11;
+            this.txtEmail.Location = new System.Drawing.Point(180, 275);
+            this.txtEmail.Multiline = true;
+            this.txtEmail.Name = "txtEmail";
+            this.txtEmail.Size = new System.Drawing.Size(752, 30);
+            this.txtEmail.TabIndex = 11;
             // 
-            // textBox4
+            // txtIdeas
             // 
-            this.textBox4.Location = new System.Drawing.Point(180, 356);
-            this.textBox4.Multiline = true;
-            this.textBox4.Name = "textBox4";
-            this.textBox4.Size = new System.Drawing.Size(752, 100);
-            this.textBox4.TabIndex = 12;
+            this.txtIdeas.Location = new System.Drawing.Point(180, 356);
+            this.txtIdeas.Multiline = true;
+            this.txtIdeas.Name = "txtIdeas";
+            this.txtIdeas.Size = new System.Drawing.Size(752, 100);
+            this.txtIdeas.TabIndex = 12;
             // 
             // label10
             // 
@@ -208,13 +208,13 @@
             this.label12.TabIndex = 14;
             this.label12.Text = "Ваши пожелания?";
             // 
-            // textBox5
+            // txtWishes
             // 
-            this.textBox5.Location = new System.Drawing.Point(180, 544);
-            this.textBox5.Multiline = true;
-            this.textBox5.Name = "textBox5";
-            this.textBox5.Size = new System.Drawing.Size(752, 100);
-            this.textBox5.TabIndex = 16;
+            this.txtWishes.Location = new System.Drawing.Point(180, 544);
+            this.txtWishes.Multiline = true;
+            this.txtWishes.Name = "txtWishes";
+            this.txtWishes.Size = new System.Drawing.Size(752, 100);
+            this.txtWishes.TabIndex = 16;
             // 
             // label13
             // 
@@ -236,13 +236,13 @@
             this.label14.Text = "Если у вас есть отзыв, положительный :) или отрицательный :(, или есть замечание " +
     "по работе, поделитесь с нами.";
             // 
-            // textBox6
+            // txtNotes
             // 
-            this.textBox6.Location = new System.Drawing.Point(181, 737);
-            this.textBox6.Multiline = true;
-            this.textBox6.Name = "textBox6";
-            this.textBox6.Size = new System.Drawing.Size(752, 100);
-            this.textBox6.TabIndex = 20;
+            this.txtNotes.Location = new System.Drawing.Point(181, 737);
+            this.txtNotes.Multiline = true;
+            this.txtNotes.Name = "txtNotes";
+            this.txtNotes.Size = new System.Drawing.Size(752, 100);
+            this.txtNotes.TabIndex = 20;
             // 
             // label16
             // 
@@ -264,6 +264,7 @@
             this.button1.TabIndex = 22;
             this.button1.Text = "Отправть ";
             this.button1.UseVisualStyleBackColor = false;
+            this.button1.Click += new System.EventHandler(this.Button1_Click);
             // 
             // Idea
             // 
@@ -272,17 +273,17 @@
             this.ClientSize = new System.Drawing.Size(1110, 1055);
             this.Controls.Add(this.button1);
             this.Controls.Add(this.label14);
-            this.Controls.Add(this.textBox6);
+            this.Controls.Add(this.txtNotes);
             this.Controls.Add(this.label16);
             this.Controls.Add(this.label13);
-            this.Controls.Add(this.textBox5);
+            this.Controls.Add(this.txtWishes);
             this.Controls.Add(this.label11);
             this.Controls.Add(this.label12);
             this.Controls.Add(this.label10);
-            this.Controls.Add(this.textBox4);
-            this.Controls.Add(this.textBox3);
-            this.Controls.Add(this.textBox2);
-            this.Controls.Add(this.textBox1);
+            this.Controls.Add(this.txtIdeas);
+            this.Controls.Add(this.txtEmail);
+            this.Controls.Add(this.txtPhone);
+            this.Controls.Add(this.txtFullName);
             this.Controls.Add(this.label9);
             this.Controls.Add(this.label8);
             this.Controls.Add(this.label7);
@@ -312,17 +313,17 @@
         private System.Windows.Forms.Label label7;
         private System.Windows.Forms.Label label8;
         private System.Windows.Forms.Label label9;
-        private System.Windows.Forms.TextBox textBox1;
-        private System.Windows.Forms.TextBox textBox2;
-        private System.Windows.Forms.TextBox textBox3;
-        private System.Windows.Forms.TextBox textBox4;
+        private System.Windows.Forms.TextBox txtFullName;
+        private System.Windows.Forms.TextBox txtPhone;
+        private System.Windows.Forms.TextBox txtEmail;
+        private System.Windows.Forms.TextBox txtIdeas;
         private System.Windows.Forms.Label label10;
         private System.Windows.Forms.Label label11;
         private System.Windows.Forms.Label label12;
-        private System.Windows.Forms.TextBox textBox5;
+        private System.Windows.Forms.TextBox txtWishes;
         private System.Windows.Forms.Label label13;
         private System.Windows.Forms.Label label14;
-        private System.Windows.Forms.TextBox textBox6;
+        private System.Windows.Forms.TextBox txtNotes;
         private System.Windows.Forms.Label label16;
         private System.Windows.Forms.Button button1;
     }

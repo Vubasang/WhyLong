@@ -121,7 +121,7 @@
             this.Controls.Add(this.label1);
             this.Name = "SomethingIsNotWorking";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
-            this.Text = "SomethingIsNotWorking";
+            this.Text = "Что-то не работает";
             this.Load += new System.EventHandler(this.SomethingIsNotWorking_Load);
             this.panel1.ResumeLayout(false);
             this.panel2.ResumeLayout(false);

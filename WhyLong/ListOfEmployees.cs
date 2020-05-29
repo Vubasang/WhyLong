@@ -15,7 +15,6 @@ namespace WhyLong
         string conStr = "Data Source = DESKTOP-TAL0KGO\\SQLEXPRESS; Initial Catalog = WhyLong; Integrated Security=true";
         string flag;
         DataTable dtAdmins;
-        int index;
         AdminsBLL bllAdmins;
         public ListOfEmployees()
         {
