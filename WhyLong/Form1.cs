@@ -103,5 +103,41 @@ namespace WhyLong
             LoginForEmployees f = new LoginForEmployees();
             f.ShowDialog();
         }
+
+        private void ЯкутскToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            ArtExhibitions_Yakutsk f = new ArtExhibitions_Yakutsk();
+            f.ShowDialog();
+        }
+
+        private void МоскваToolStripMenuItem1_Click(object sender, EventArgs e)
+        {
+            ArtExhibitions_Moscow f = new ArtExhibitions_Moscow();
+            f.ShowDialog();
+        }
+
+        private void СанктПетербургToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            ArtExhibitions_Peterburg f = new ArtExhibitions_Peterburg();
+            f.ShowDialog();
+        }
+
+        private void КакToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            PostInformationOnThePoster f = new PostInformationOnThePoster();
+            f.ShowDialog();
+        }
+
+        private void АвишаВыставокToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            PosterExhibition f = new PosterExhibition();
+            f.ShowDialog();
+        }
+
+        private void КонкурсыToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            Contests f = new Contests();
+            f.ShowDialog();
+        }
     }
 }

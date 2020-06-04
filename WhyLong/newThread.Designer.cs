@@ -30,9 +30,9 @@
         {
             this.label1 = new System.Windows.Forms.Label();
             this.panel1 = new System.Windows.Forms.Panel();
-            this.textBox2 = new System.Windows.Forms.TextBox();
+            this.txtTopic = new System.Windows.Forms.TextBox();
             this.label3 = new System.Windows.Forms.Label();
-            this.textBox1 = new System.Windows.Forms.TextBox();
+            this.txttopicTitle = new System.Windows.Forms.TextBox();
             this.label2 = new System.Windows.Forms.Label();
             this.button1 = new System.Windows.Forms.Button();
             this.panel1.SuspendLayout();
@@ -51,22 +51,22 @@
             // panel1
             // 
             this.panel1.BackColor = System.Drawing.Color.Gainsboro;
-            this.panel1.Controls.Add(this.textBox2);
+            this.panel1.Controls.Add(this.txtTopic);
             this.panel1.Controls.Add(this.label3);
-            this.panel1.Controls.Add(this.textBox1);
+            this.panel1.Controls.Add(this.txttopicTitle);
             this.panel1.Controls.Add(this.label2);
             this.panel1.Location = new System.Drawing.Point(94, 81);
             this.panel1.Name = "panel1";
             this.panel1.Size = new System.Drawing.Size(990, 558);
             this.panel1.TabIndex = 1;
             // 
-            // textBox2
+            // txtTopic
             // 
-            this.textBox2.Location = new System.Drawing.Point(54, 129);
-            this.textBox2.Multiline = true;
-            this.textBox2.Name = "textBox2";
-            this.textBox2.Size = new System.Drawing.Size(868, 404);
-            this.textBox2.TabIndex = 3;
+            this.txtTopic.Location = new System.Drawing.Point(54, 129);
+            this.txtTopic.Multiline = true;
+            this.txtTopic.Name = "txtTopic";
+            this.txtTopic.Size = new System.Drawing.Size(868, 404);
+            this.txtTopic.TabIndex = 3;
             // 
             // label3
             // 
@@ -80,13 +80,13 @@
             this.label3.Text = "Назовите тему понятно, чтобы по названию можно было понять суть. Обычно это ключе" +
     "вая фраза из текста.";
             // 
-            // textBox1
+            // txttopicTitle
             // 
-            this.textBox1.Location = new System.Drawing.Point(54, 53);
-            this.textBox1.Multiline = true;
-            this.textBox1.Name = "textBox1";
-            this.textBox1.Size = new System.Drawing.Size(868, 31);
-            this.textBox1.TabIndex = 1;
+            this.txttopicTitle.Location = new System.Drawing.Point(54, 53);
+            this.txttopicTitle.Multiline = true;
+            this.txttopicTitle.Name = "txttopicTitle";
+            this.txttopicTitle.Size = new System.Drawing.Size(868, 31);
+            this.txttopicTitle.TabIndex = 1;
             // 
             // label2
             // 
@@ -108,6 +108,7 @@
             this.button1.TabIndex = 2;
             this.button1.Text = "Создать тему";
             this.button1.UseVisualStyleBackColor = true;
+            this.button1.Click += new System.EventHandler(this.Button1_Click);
             // 
             // newThread
             // 
@@ -119,7 +120,7 @@
             this.Controls.Add(this.label1);
             this.Name = "newThread";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
-            this.Text = "newThread";
+            this.Text = "Новая тема";
             this.panel1.ResumeLayout(false);
             this.panel1.PerformLayout();
             this.ResumeLayout(false);
@@ -131,9 +132,9 @@
 
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.Panel panel1;
-        private System.Windows.Forms.TextBox textBox2;
+        private System.Windows.Forms.TextBox txtTopic;
         private System.Windows.Forms.Label label3;
-        private System.Windows.Forms.TextBox textBox1;
+        private System.Windows.Forms.TextBox txttopicTitle;
         private System.Windows.Forms.Label label2;
         private System.Windows.Forms.Button button1;
     }

@@ -117,7 +117,6 @@
             this.иНТЕРАКТИВToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.авишаВыставокToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.конкурсыToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.пазлыToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.новостиToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.самоеИнтересноеToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.вМиреToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
@@ -134,11 +133,6 @@
             this.якутскToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.москваToolStripMenuItem1 = new System.Windows.Forms.ToolStripMenuItem();
             this.санктПетербургToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.спектаклиToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.якутскToolStripMenuItem1 = new System.Windows.Forms.ToolStripMenuItem();
-            this.москваToolStripMenuItem2 = new System.Windows.Forms.ToolStripMenuItem();
-            this.санктПетербургToolStripMenuItem1 = new System.Windows.Forms.ToolStripMenuItem();
-            this.концертыToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.какToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.форумToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.техподдержкаToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
@@ -152,12 +146,12 @@
             this.рекламаНаСайтеToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.регистрацияToolStripMenuItem1 = new System.Windows.Forms.ToolStripMenuItem();
             this.войтиToolStripMenuItem1 = new System.Windows.Forms.ToolStripMenuItem();
+            this.войтиДляСотрудниковToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.регистрацияToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.войтиToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.panel1 = new System.Windows.Forms.Panel();
             this.label1 = new System.Windows.Forms.Label();
             this.timer1 = new System.Windows.Forms.Timer(this.components);
-            this.войтиДляСотрудниковToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.menuStrip1.SuspendLayout();
             this.panel1.SuspendLayout();
             this.SuspendLayout();
@@ -201,7 +195,7 @@
             this.музеиМираToolStripMenuItem,
             this.каталогToolStripMenuItem});
             this.картиныToolStripMenuItem.Name = "картиныToolStripMenuItem";
-            this.картиныToolStripMenuItem.Size = new System.Drawing.Size(224, 26);
+            this.картиныToolStripMenuItem.Size = new System.Drawing.Size(153, 26);
             this.картиныToolStripMenuItem.Text = "Картины";
             // 
             // картинаяГареToolStripMenuItem
@@ -591,7 +585,7 @@
             this.фильмыОХудожникахToolStripMenuItem,
             this.учимсяРисоватьToolStripMenuItem});
             this.историяToolStripMenuItem.Name = "историяToolStripMenuItem";
-            this.историяToolStripMenuItem.Size = new System.Drawing.Size(224, 26);
+            this.историяToolStripMenuItem.Size = new System.Drawing.Size(153, 26);
             this.историяToolStripMenuItem.Text = "История";
             // 
             // биографииToolStripMenuItem
@@ -787,8 +781,7 @@
             // 
             this.иНТЕРАКТИВToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
             this.авишаВыставокToolStripMenuItem,
-            this.конкурсыToolStripMenuItem,
-            this.пазлыToolStripMenuItem});
+            this.конкурсыToolStripMenuItem});
             this.иНТЕРАКТИВToolStripMenuItem.Name = "иНТЕРАКТИВToolStripMenuItem";
             this.иНТЕРАКТИВToolStripMenuItem.Size = new System.Drawing.Size(104, 24);
             this.иНТЕРАКТИВToolStripMenuItem.Text = "Интерактив";
@@ -796,20 +789,16 @@
             // авишаВыставокToolStripMenuItem
             // 
             this.авишаВыставокToolStripMenuItem.Name = "авишаВыставокToolStripMenuItem";
-            this.авишаВыставокToolStripMenuItem.Size = new System.Drawing.Size(207, 26);
-            this.авишаВыставокToolStripMenuItem.Text = "Авиша выставок";
+            this.авишаВыставокToolStripMenuItem.Size = new System.Drawing.Size(224, 26);
+            this.авишаВыставокToolStripMenuItem.Text = "Афиша выставок";
+            this.авишаВыставокToolStripMenuItem.Click += new System.EventHandler(this.АвишаВыставокToolStripMenuItem_Click);
             // 
             // конкурсыToolStripMenuItem
             // 
             this.конкурсыToolStripMenuItem.Name = "конкурсыToolStripMenuItem";
-            this.конкурсыToolStripMenuItem.Size = new System.Drawing.Size(207, 26);
+            this.конкурсыToolStripMenuItem.Size = new System.Drawing.Size(224, 26);
             this.конкурсыToolStripMenuItem.Text = "Конкурсы";
-            // 
-            // пазлыToolStripMenuItem
-            // 
-            this.пазлыToolStripMenuItem.Name = "пазлыToolStripMenuItem";
-            this.пазлыToolStripMenuItem.Size = new System.Drawing.Size(207, 26);
-            this.пазлыToolStripMenuItem.Text = "Пазлы ";
+            this.конкурсыToolStripMenuItem.Click += new System.EventHandler(this.КонкурсыToolStripMenuItem_Click);
             // 
             // новостиToolStripMenuItem
             // 
@@ -893,8 +882,6 @@
             // 
             this.афишаКультурныхToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
             this.художественныеВыставкиToolStripMenuItem,
-            this.спектаклиToolStripMenuItem,
-            this.концертыToolStripMenuItem,
             this.какToolStripMenuItem});
             this.афишаКультурныхToolStripMenuItem.Name = "афишаКультурныхToolStripMenuItem";
             this.афишаКультурныхToolStripMenuItem.Size = new System.Drawing.Size(219, 24);
@@ -915,58 +902,28 @@
             this.якутскToolStripMenuItem.Name = "якутскToolStripMenuItem";
             this.якутскToolStripMenuItem.Size = new System.Drawing.Size(210, 26);
             this.якутскToolStripMenuItem.Text = "Якутск";
+            this.якутскToolStripMenuItem.Click += new System.EventHandler(this.ЯкутскToolStripMenuItem_Click);
             // 
             // москваToolStripMenuItem1
             // 
             this.москваToolStripMenuItem1.Name = "москваToolStripMenuItem1";
             this.москваToolStripMenuItem1.Size = new System.Drawing.Size(210, 26);
             this.москваToolStripMenuItem1.Text = "Москва";
+            this.москваToolStripMenuItem1.Click += new System.EventHandler(this.МоскваToolStripMenuItem1_Click);
             // 
             // санктПетербургToolStripMenuItem
             // 
             this.санктПетербургToolStripMenuItem.Name = "санктПетербургToolStripMenuItem";
             this.санктПетербургToolStripMenuItem.Size = new System.Drawing.Size(210, 26);
             this.санктПетербургToolStripMenuItem.Text = "Санкт-Петербург";
-            // 
-            // спектаклиToolStripMenuItem
-            // 
-            this.спектаклиToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
-            this.якутскToolStripMenuItem1,
-            this.москваToolStripMenuItem2,
-            this.санктПетербургToolStripMenuItem1});
-            this.спектаклиToolStripMenuItem.Name = "спектаклиToolStripMenuItem";
-            this.спектаклиToolStripMenuItem.Size = new System.Drawing.Size(407, 26);
-            this.спектаклиToolStripMenuItem.Text = "Спектакли";
-            // 
-            // якутскToolStripMenuItem1
-            // 
-            this.якутскToolStripMenuItem1.Name = "якутскToolStripMenuItem1";
-            this.якутскToolStripMenuItem1.Size = new System.Drawing.Size(210, 26);
-            this.якутскToolStripMenuItem1.Text = "Якутск";
-            // 
-            // москваToolStripMenuItem2
-            // 
-            this.москваToolStripMenuItem2.Name = "москваToolStripMenuItem2";
-            this.москваToolStripMenuItem2.Size = new System.Drawing.Size(210, 26);
-            this.москваToolStripMenuItem2.Text = "Москва";
-            // 
-            // санктПетербургToolStripMenuItem1
-            // 
-            this.санктПетербургToolStripMenuItem1.Name = "санктПетербургToolStripMenuItem1";
-            this.санктПетербургToolStripMenuItem1.Size = new System.Drawing.Size(210, 26);
-            this.санктПетербургToolStripMenuItem1.Text = "Санкт-Петербург";
-            // 
-            // концертыToolStripMenuItem
-            // 
-            this.концертыToolStripMenuItem.Name = "концертыToolStripMenuItem";
-            this.концертыToolStripMenuItem.Size = new System.Drawing.Size(407, 26);
-            this.концертыToolStripMenuItem.Text = "Концерты";
+            this.санктПетербургToolStripMenuItem.Click += new System.EventHandler(this.СанктПетербургToolStripMenuItem_Click);
             // 
             // какToolStripMenuItem
             // 
             this.какToolStripMenuItem.Name = "какToolStripMenuItem";
             this.какToolStripMenuItem.Size = new System.Drawing.Size(407, 26);
             this.какToolStripMenuItem.Text = "Как  разместить свою информацию а Афише";
+            this.какToolStripMenuItem.Click += new System.EventHandler(this.КакToolStripMenuItem_Click);
             // 
             // форумToolStripMenuItem
             // 
@@ -1060,6 +1017,13 @@
             this.войтиToolStripMenuItem1.Text = "Войти";
             this.войтиToolStripMenuItem1.Click += new System.EventHandler(this.ВойтиToolStripMenuItem1_Click);
             // 
+            // войтиДляСотрудниковToolStripMenuItem
+            // 
+            this.войтиДляСотрудниковToolStripMenuItem.Name = "войтиДляСотрудниковToolStripMenuItem";
+            this.войтиДляСотрудниковToolStripMenuItem.Size = new System.Drawing.Size(185, 24);
+            this.войтиДляСотрудниковToolStripMenuItem.Text = "Войти для сотрудников";
+            this.войтиДляСотрудниковToolStripMenuItem.Click += new System.EventHandler(this.ВойтиДляСотрудниковToolStripMenuItem_Click);
+            // 
             // регистрацияToolStripMenuItem
             // 
             this.регистрацияToolStripMenuItem.Name = "регистрацияToolStripMenuItem";
@@ -1094,13 +1058,6 @@
             // 
             this.timer1.Enabled = true;
             this.timer1.Tick += new System.EventHandler(this.Timer1_Tick);
-            // 
-            // войтиДляСотрудниковToolStripMenuItem
-            // 
-            this.войтиДляСотрудниковToolStripMenuItem.Name = "войтиДляСотрудниковToolStripMenuItem";
-            this.войтиДляСотрудниковToolStripMenuItem.Size = new System.Drawing.Size(185, 24);
-            this.войтиДляСотрудниковToolStripMenuItem.Text = "Войти для сотрудников";
-            this.войтиДляСотрудниковToolStripMenuItem.Click += new System.EventHandler(this.ВойтиДляСотрудниковToolStripMenuItem_Click);
             // 
             // Form1
             // 
@@ -1212,7 +1169,6 @@
         private System.Windows.Forms.ToolStripMenuItem иНТЕРАКТИВToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem авишаВыставокToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem конкурсыToolStripMenuItem;
-        private System.Windows.Forms.ToolStripMenuItem пазлыToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem новостиToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem самоеИнтересноеToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem вМиреToolStripMenuItem;
@@ -1229,11 +1185,6 @@
         private System.Windows.Forms.ToolStripMenuItem якутскToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem москваToolStripMenuItem1;
         private System.Windows.Forms.ToolStripMenuItem санктПетербургToolStripMenuItem;
-        private System.Windows.Forms.ToolStripMenuItem спектаклиToolStripMenuItem;
-        private System.Windows.Forms.ToolStripMenuItem якутскToolStripMenuItem1;
-        private System.Windows.Forms.ToolStripMenuItem москваToolStripMenuItem2;
-        private System.Windows.Forms.ToolStripMenuItem санктПетербургToolStripMenuItem1;
-        private System.Windows.Forms.ToolStripMenuItem концертыToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem какToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem форумToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem техподдержкаToolStripMenuItem;
