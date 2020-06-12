@@ -195,7 +195,7 @@
             this.музеиМираToolStripMenuItem,
             this.каталогToolStripMenuItem});
             this.картиныToolStripMenuItem.Name = "картиныToolStripMenuItem";
-            this.картиныToolStripMenuItem.Size = new System.Drawing.Size(153, 26);
+            this.картиныToolStripMenuItem.Size = new System.Drawing.Size(224, 26);
             this.картиныToolStripMenuItem.Text = "Картины";
             // 
             // картинаяГареToolStripMenuItem
@@ -261,7 +261,7 @@
             this.финляндияToolStripMenuItem,
             this.голлToolStripMenuItem});
             this.страныToolStripMenuItem.Name = "страныToolStripMenuItem";
-            this.страныToolStripMenuItem.Size = new System.Drawing.Size(144, 26);
+            this.страныToolStripMenuItem.Size = new System.Drawing.Size(224, 26);
             this.страныToolStripMenuItem.Text = "Страны";
             // 
             // италияToolStripMenuItem
@@ -384,121 +384,122 @@
             this.прагаToolStripMenuItem,
             this.ослоToolStripMenuItem});
             this.городаToolStripMenuItem.Name = "городаToolStripMenuItem";
-            this.городаToolStripMenuItem.Size = new System.Drawing.Size(144, 26);
+            this.городаToolStripMenuItem.Size = new System.Drawing.Size(224, 26);
             this.городаToolStripMenuItem.Text = "Города";
             // 
             // лондонToolStripMenuItem
             // 
             this.лондонToolStripMenuItem.Name = "лондонToolStripMenuItem";
-            this.лондонToolStripMenuItem.Size = new System.Drawing.Size(170, 26);
+            this.лондонToolStripMenuItem.Size = new System.Drawing.Size(224, 26);
             this.лондонToolStripMenuItem.Text = "Лондон";
+            this.лондонToolStripMenuItem.Click += new System.EventHandler(this.ЛондонToolStripMenuItem_Click);
             // 
             // москваToolStripMenuItem
             // 
             this.москваToolStripMenuItem.Name = "москваToolStripMenuItem";
-            this.москваToolStripMenuItem.Size = new System.Drawing.Size(170, 26);
+            this.москваToolStripMenuItem.Size = new System.Drawing.Size(224, 26);
             this.москваToolStripMenuItem.Text = "Москва";
             // 
             // ханойToolStripMenuItem
             // 
             this.ханойToolStripMenuItem.Name = "ханойToolStripMenuItem";
-            this.ханойToolStripMenuItem.Size = new System.Drawing.Size(170, 26);
+            this.ханойToolStripMenuItem.Size = new System.Drawing.Size(224, 26);
             this.ханойToolStripMenuItem.Text = "Ханой";
             // 
             // барселонаToolStripMenuItem
             // 
             this.барселонаToolStripMenuItem.Name = "барселонаToolStripMenuItem";
-            this.барселонаToolStripMenuItem.Size = new System.Drawing.Size(170, 26);
+            this.барселонаToolStripMenuItem.Size = new System.Drawing.Size(224, 26);
             this.барселонаToolStripMenuItem.Text = "Барселона";
             // 
             // мюнхенToolStripMenuItem
             // 
             this.мюнхенToolStripMenuItem.Name = "мюнхенToolStripMenuItem";
-            this.мюнхенToolStripMenuItem.Size = new System.Drawing.Size(170, 26);
+            this.мюнхенToolStripMenuItem.Size = new System.Drawing.Size(224, 26);
             this.мюнхенToolStripMenuItem.Text = "Мюнхен";
             // 
             // петербургToolStripMenuItem
             // 
             this.петербургToolStripMenuItem.Name = "петербургToolStripMenuItem";
-            this.петербургToolStripMenuItem.Size = new System.Drawing.Size(170, 26);
+            this.петербургToolStripMenuItem.Size = new System.Drawing.Size(224, 26);
             this.петербургToolStripMenuItem.Text = "Петербург";
             // 
             // миланToolStripMenuItem
             // 
             this.миланToolStripMenuItem.Name = "миланToolStripMenuItem";
-            this.миланToolStripMenuItem.Size = new System.Drawing.Size(170, 26);
+            this.миланToolStripMenuItem.Size = new System.Drawing.Size(224, 26);
             this.миланToolStripMenuItem.Text = "Милан";
             // 
             // амстердамToolStripMenuItem
             // 
             this.амстердамToolStripMenuItem.Name = "амстердамToolStripMenuItem";
-            this.амстердамToolStripMenuItem.Size = new System.Drawing.Size(170, 26);
+            this.амстердамToolStripMenuItem.Size = new System.Drawing.Size(224, 26);
             this.амстердамToolStripMenuItem.Text = "Амстердам";
             // 
             // мадридToolStripMenuItem
             // 
             this.мадридToolStripMenuItem.Name = "мадридToolStripMenuItem";
-            this.мадридToolStripMenuItem.Size = new System.Drawing.Size(170, 26);
+            this.мадридToolStripMenuItem.Size = new System.Drawing.Size(224, 26);
             this.мадридToolStripMenuItem.Text = "Мадрид";
             // 
             // венаToolStripMenuItem
             // 
             this.венаToolStripMenuItem.Name = "венаToolStripMenuItem";
-            this.венаToolStripMenuItem.Size = new System.Drawing.Size(170, 26);
+            this.венаToolStripMenuItem.Size = new System.Drawing.Size(224, 26);
             this.венаToolStripMenuItem.Text = "Вена";
             // 
             // стокгольмToolStripMenuItem
             // 
             this.стокгольмToolStripMenuItem.Name = "стокгольмToolStripMenuItem";
-            this.стокгольмToolStripMenuItem.Size = new System.Drawing.Size(170, 26);
+            this.стокгольмToolStripMenuItem.Size = new System.Drawing.Size(224, 26);
             this.стокгольмToolStripMenuItem.Text = "Стокгольм";
             // 
             // ньюЙоркToolStripMenuItem
             // 
             this.ньюЙоркToolStripMenuItem.Name = "ньюЙоркToolStripMenuItem";
-            this.ньюЙоркToolStripMenuItem.Size = new System.Drawing.Size(170, 26);
+            this.ньюЙоркToolStripMenuItem.Size = new System.Drawing.Size(224, 26);
             this.ньюЙоркToolStripMenuItem.Text = "Нью-Йорк";
             // 
             // киевToolStripMenuItem
             // 
             this.киевToolStripMenuItem.Name = "киевToolStripMenuItem";
-            this.киевToolStripMenuItem.Size = new System.Drawing.Size(170, 26);
+            this.киевToolStripMenuItem.Size = new System.Drawing.Size(224, 26);
             this.киевToolStripMenuItem.Text = "Киев";
             // 
             // римToolStripMenuItem
             // 
             this.римToolStripMenuItem.Name = "римToolStripMenuItem";
-            this.римToolStripMenuItem.Size = new System.Drawing.Size(170, 26);
+            this.римToolStripMenuItem.Size = new System.Drawing.Size(224, 26);
             this.римToolStripMenuItem.Text = "Рим";
             // 
             // берлинToolStripMenuItem
             // 
             this.берлинToolStripMenuItem.Name = "берлинToolStripMenuItem";
-            this.берлинToolStripMenuItem.Size = new System.Drawing.Size(170, 26);
+            this.берлинToolStripMenuItem.Size = new System.Drawing.Size(224, 26);
             this.берлинToolStripMenuItem.Text = "Берлин";
             // 
             // парижToolStripMenuItem
             // 
             this.парижToolStripMenuItem.Name = "парижToolStripMenuItem";
-            this.парижToolStripMenuItem.Size = new System.Drawing.Size(170, 26);
+            this.парижToolStripMenuItem.Size = new System.Drawing.Size(224, 26);
             this.парижToolStripMenuItem.Text = "Париж";
             // 
             // каирToolStripMenuItem
             // 
             this.каирToolStripMenuItem.Name = "каирToolStripMenuItem";
-            this.каирToolStripMenuItem.Size = new System.Drawing.Size(170, 26);
+            this.каирToolStripMenuItem.Size = new System.Drawing.Size(224, 26);
             this.каирToolStripMenuItem.Text = "Каир";
             // 
             // прагаToolStripMenuItem
             // 
             this.прагаToolStripMenuItem.Name = "прагаToolStripMenuItem";
-            this.прагаToolStripMenuItem.Size = new System.Drawing.Size(170, 26);
+            this.прагаToolStripMenuItem.Size = new System.Drawing.Size(224, 26);
             this.прагаToolStripMenuItem.Text = "Прага";
             // 
             // ослоToolStripMenuItem
             // 
             this.ослоToolStripMenuItem.Name = "ослоToolStripMenuItem";
-            this.ослоToolStripMenuItem.Size = new System.Drawing.Size(170, 26);
+            this.ослоToolStripMenuItem.Size = new System.Drawing.Size(224, 26);
             this.ослоToolStripMenuItem.Text = "Осло";
             // 
             // каталогToolStripMenuItem
@@ -585,7 +586,7 @@
             this.фильмыОХудожникахToolStripMenuItem,
             this.учимсяРисоватьToolStripMenuItem});
             this.историяToolStripMenuItem.Name = "историяToolStripMenuItem";
-            this.историяToolStripMenuItem.Size = new System.Drawing.Size(153, 26);
+            this.историяToolStripMenuItem.Size = new System.Drawing.Size(224, 26);
             this.историяToolStripMenuItem.Text = "История";
             // 
             // биографииToolStripMenuItem

@@ -139,5 +139,11 @@ namespace WhyLong
             Contests f = new Contests();
             f.ShowDialog();
         }
+
+        private void ЛондонToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            Museums.London.Lodon f = new Museums.London.Lodon();
+            f.ShowDialog();
+        }
     }
 }

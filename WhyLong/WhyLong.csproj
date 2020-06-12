@@ -163,6 +163,24 @@
     <Compile Include="LoginForEmployees.Designer.cs">
       <DependentUpon>LoginForEmployees.cs</DependentUpon>
     </Compile>
+    <Compile Include="Museums\London\Lodon.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Museums\London\Lodon.Designer.cs">
+      <DependentUpon>Lodon.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Museums\London\Музей_Чарльза_ДиккенсаForm1.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Museums\London\Музей_Чарльза_ДиккенсаForm1.Designer.cs">
+      <DependentUpon>Музей_Чарльза_ДиккенсаForm1.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Museums\London\Национальный_морской_музей.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Museums\London\Национальный_морской_музей.Designer.cs">
+      <DependentUpon>Национальный_морской_музей.cs</DependentUpon>
+    </Compile>
     <Compile Include="MyDbContext.cs" />
     <Compile Include="newThread.cs">
       <SubType>Form</SubType>
@@ -289,6 +307,15 @@
     </EmbeddedResource>
     <EmbeddedResource Include="LoginForEmployees.resx">
       <DependentUpon>LoginForEmployees.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Museums\London\Lodon.resx">
+      <DependentUpon>Lodon.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Museums\London\Музей_Чарльза_ДиккенсаForm1.resx">
+      <DependentUpon>Музей_Чарльза_ДиккенсаForm1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Museums\London\Национальный_морской_музей.resx">
+      <DependentUpon>Национальный_морской_музей.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="newThread.resx">
       <DependentUpon>newThread.cs</DependentUpon>
