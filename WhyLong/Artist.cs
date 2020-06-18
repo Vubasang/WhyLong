@@ -5,7 +5,7 @@ using System.Text;
 
 namespace WhyLong
 {
-    class Artist
+    public class Artist
     {
         public int ArtistId { get; set; }
         public string Biography { get; set; }

@@ -12,6 +12,8 @@ namespace WhyLong
 {
     public partial class Form1 : Form
     {
+        public UserContext DB { get; set; }
+        public Person User { get; set; }
         public Form1()
         {
             InitializeComponent();
@@ -144,6 +146,19 @@ namespace WhyLong
         {
             Museums.London.Lodon f = new Museums.London.Lodon();
             f.ShowDialog();
+        }
+
+        private void списокСотрудниковToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            Form4 f = new Form4();
+            f.DB = this.DB;
+            f.User = this.User;
+            f.ShowDialog();
+        }
+
+        private void Form1_Load(object sender, EventArgs e)
+        {
+
         }
     }
 }

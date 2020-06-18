@@ -144,6 +144,18 @@
     <Compile Include="Form1.Designer.cs">
       <DependentUpon>Form1.cs</DependentUpon>
     </Compile>
+    <Compile Include="Form3.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form3.Designer.cs">
+      <DependentUpon>Form3.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Form4.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form4.Designer.cs">
+      <DependentUpon>Form4.cs</DependentUpon>
+    </Compile>
     <Compile Include="Genre.cs" />
     <Compile Include="Idea.cs">
       <SubType>Form</SubType>
@@ -163,6 +175,14 @@
     <Compile Include="LoginForEmployees.Designer.cs">
       <DependentUpon>LoginForEmployees.cs</DependentUpon>
     </Compile>
+    <Compile Include="Migrations\202006181445115_Migration.cs" />
+    <Compile Include="Migrations\202006181445115_Migration.designer.cs">
+      <DependentUpon>202006181445115_Migration.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\202006181500400_Migration1.cs" />
+    <Compile Include="Migrations\202006181500400_Migration1.designer.cs">
+      <DependentUpon>202006181500400_Migration1.cs</DependentUpon>
+    </Compile>
     <Compile Include="Museums\London\Lodon.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -181,7 +201,6 @@
     <Compile Include="Museums\London\Национальный_морской_музей.Designer.cs">
       <DependentUpon>Национальный_морской_музей.cs</DependentUpon>
     </Compile>
-    <Compile Include="MyDbContext.cs" />
     <Compile Include="newThread.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -299,6 +318,12 @@
     <EmbeddedResource Include="Form1.resx">
       <DependentUpon>Form1.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="Form3.resx">
+      <DependentUpon>Form3.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form4.resx">
+      <DependentUpon>Form4.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Idea.resx">
       <DependentUpon>Idea.cs</DependentUpon>
     </EmbeddedResource>
@@ -307,6 +332,12 @@
     </EmbeddedResource>
     <EmbeddedResource Include="LoginForEmployees.resx">
       <DependentUpon>LoginForEmployees.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\202006181445115_Migration.resx">
+      <DependentUpon>202006181445115_Migration.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\202006181500400_Migration1.resx">
+      <DependentUpon>202006181500400_Migration1.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Museums\London\Lodon.resx">
       <DependentUpon>Lodon.cs</DependentUpon>
@@ -441,6 +472,7 @@
   <ItemGroup>
     <None Include="Resources\Конкурс_1.jpg" />
   </ItemGroup>
+  <ItemGroup />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <Target Name="EnsureNuGetPackageBuildImports" BeforeTargets="PrepareForBuild">
     <PropertyGroup>

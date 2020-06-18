@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace WhyLong
 {
-    class Exhibition
+    public class Exhibition
     {
         public int ExhibitionId { get; set; }
         public string Location { get; set; }

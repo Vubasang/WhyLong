@@ -7,7 +7,7 @@ using System.ComponentModel.DataAnnotations;
 
 namespace WhyLong
 {
-    class Genre
+    public class Genre
     {
         [Key]
         public int Id { get; set; }

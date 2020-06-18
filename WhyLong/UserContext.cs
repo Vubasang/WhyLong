@@ -7,7 +7,7 @@ using System.Data.Entity;
 
 namespace WhyLong
 {
-    class UserContext : DbContext
+    public class UserContext : DbContext
     {
         public UserContext()
             : base("DBConnection")

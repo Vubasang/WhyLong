@@ -7,7 +7,7 @@ using System.Threading.Tasks;
 
 namespace WhyLong
 {
-    class Picture
+    public class Picture
     {
         public int PictureId { get; set; }
         public Artist Author { get; set; }
