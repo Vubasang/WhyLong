@@ -163,6 +163,7 @@
     <Compile Include="Idea.Designer.cs">
       <DependentUpon>Idea.cs</DependentUpon>
     </Compile>
+    <Compile Include="IPerson.cs" />
     <Compile Include="ListOfEmployees.cs">
       <SubType>Form</SubType>
     </Compile>

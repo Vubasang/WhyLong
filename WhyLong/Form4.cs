@@ -2,6 +2,8 @@
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
+using System.Data.Entity;
+using System.Data.SqlClient;
 using System.Drawing;
 using System.Linq;
 using System.Security.Cryptography.X509Certificates;
@@ -15,7 +17,11 @@ namespace WhyLong
     {
         public UserContext DB { get; set; }
         public Person User { get; set; }
-        
+        public static void AddPerson(UserContext db, string FirstName)
+        {
+          
+        }
+
         public Form4()
         {
             InitializeComponent();
@@ -30,10 +36,11 @@ namespace WhyLong
         {
 
         }
+        
 
         private void button2_Click(object sender, EventArgs e)
         {
-
+           
         }
 
         private void Form4_Load(object sender, EventArgs e)
@@ -53,7 +60,21 @@ namespace WhyLong
             dataGridView1.Columns[2].HeaderText = "Имя";
             dataGridView1.Columns[3].HeaderText = "Отчество";
             dataGridView1.Columns[4].HeaderText = "Должность";
+        }
 
+        private void textBox1_TextChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void button5_Click(object sender, EventArgs e)
+        {
+            
+        }
+
+        private void button4_Click(object sender, EventArgs e)
+        {
+            
         }
     }
 }
