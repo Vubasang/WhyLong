@@ -8,113 +8,108 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 
-namespace WhyLong.Museums.London
+namespace WhyLong.Museums.Moscow
 {
-    public partial class Lodon : Form
+    public partial class Moscow : Form
     {
-        public Lodon()
+        public Moscow()
         {
             InitializeComponent();
         }
 
-        private void Lodon_Load(object sender, EventArgs e)
-        {
-
-        }
-
         private void Label1_Click(object sender, EventArgs e)
         {
-            Национальный_морской_музей f = new Национальный_морской_музей();
+            Museums.Moscow.Политехнический_музей f = new Museums.Moscow.Политехнический_музей();
             f.ShowDialog();
         }
 
         private void Label2_Click(object sender, EventArgs e)
         {
-            Национальный_морской_музей f = new Национальный_морской_музей();
+            Museums.Moscow.Политехнический_музей f = new Museums.Moscow.Политехнический_музей();
             f.ShowDialog();
         }
 
         private void Label4_Click(object sender, EventArgs e)
         {
-            Музей_Чарльза_ДиккенсаForm1 f = new Музей_Чарльза_ДиккенсаForm1();
+            Museums.Moscow.Литературный_музей f = new Museums.Moscow.Литературный_музей();
             f.ShowDialog();
         }
 
         private void Label3_Click(object sender, EventArgs e)
         {
-            Музей_Чарльза_ДиккенсаForm1 f = new Музей_Чарльза_ДиккенсаForm1();
+            Museums.Moscow.Литературный_музей f = new Museums.Moscow.Литературный_музей();
             f.ShowDialog();
         }
 
         private void Label6_Click(object sender, EventArgs e)
         {
-            Музей_Шерлока_Холмса f = new Музей_Шерлока_Холмса();
+            Museums.Moscow.Музей_динозавров f = new Museums.Moscow.Музей_динозавров();
             f.ShowDialog();
         }
 
         private void Label5_Click(object sender, EventArgs e)
         {
-            Музей_Шерлока_Холмса f = new Музей_Шерлока_Холмса();
+            Museums.Moscow.Музей_динозавров f = new Museums.Moscow.Музей_динозавров();
             f.ShowDialog();
         }
 
         private void Label8_Click(object sender, EventArgs e)
         {
-            Музей_Виктории_и_Альберта f = new Музей_Виктории_и_Альберта();
+            Museums.Moscow.Музей_хоккея f = new Museums.Moscow.Музей_хоккея();
             f.ShowDialog();
         }
 
         private void Label7_Click(object sender, EventArgs e)
         {
-            Музей_Виктории_и_Альберта f = new Музей_Виктории_и_Альберта();
+            Museums.Moscow.Музей_хоккея f = new Museums.Moscow.Музей_хоккея();
             f.ShowDialog();
         }
 
         private void Label16_Click(object sender, EventArgs e)
         {
-            Национальная_галерея f = new Национальная_галерея();
+            Museums.Moscow.Музей_хлеба f = new Museums.Moscow.Музей_хлеба();
             f.ShowDialog();
         }
 
         private void Label15_Click(object sender, EventArgs e)
         {
-            Национальная_галерея f = new Национальная_галерея();
+            Museums.Moscow.Музей_хлеба f = new Museums.Moscow.Музей_хлеба();
             f.ShowDialog();
         }
 
         private void Label14_Click(object sender, EventArgs e)
         {
-            Музей_игрушек_Поллока f = new Музей_игрушек_Поллока();
+            Museums.Moscow.Успенский_собор f = new Museums.Moscow.Успенский_собор();
             f.ShowDialog();
         }
 
         private void Label13_Click(object sender, EventArgs e)
         {
-            Музей_игрушек_Поллока f = new Музей_игрушек_Поллока();
+            Museums.Moscow.Успенский_собор f = new Museums.Moscow.Успенский_собор();
             f.ShowDialog();
         }
 
         private void Label12_Click(object sender, EventArgs e)
         {
-            Музей_детства f = new Музей_детства();
+            Museums.Moscow.Церковь_Ризположения f = new Museums.Moscow.Церковь_Ризположения();
             f.ShowDialog();
         }
 
         private void Label11_Click(object sender, EventArgs e)
         {
-            Музей_детства f = new Музей_детства();
+            Museums.Moscow.Церковь_Ризположения f = new Museums.Moscow.Церковь_Ризположения();
             f.ShowDialog();
         }
 
         private void Label10_Click(object sender, EventArgs e)
         {
-            Галерея_Тейт f = new Галерея_Тейт();
+            Museums.Moscow.Архангельский_собор f = new Museums.Moscow.Архангельский_собор();
             f.ShowDialog();
         }
 
         private void Label9_Click(object sender, EventArgs e)
         {
-            Галерея_Тейт f = new Галерея_Тейт();
+            Museums.Moscow.Архангельский_собор f = new Museums.Moscow.Архангельский_собор();
             f.ShowDialog();
         }
     }

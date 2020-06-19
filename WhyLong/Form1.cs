@@ -160,5 +160,17 @@ namespace WhyLong
         {
 
         }
+
+        private void РусскиеХудожникиToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            Artists.ArtistsRussia.Русские_художники f = new Artists.ArtistsRussia.Русские_художники();
+            f.ShowDialog();
+        }
+
+        private void МоскваToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            Museums.Moscow.Moscow f = new Museums.Moscow.Moscow();
+            f.ShowDialog();
+        }
     }
 }

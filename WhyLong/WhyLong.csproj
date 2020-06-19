@@ -123,6 +123,60 @@
       <DependentUpon>ArtExhibitions_Peterburg.cs</DependentUpon>
     </Compile>
     <Compile Include="Artist.cs" />
+    <Compile Include="Artists\ArtistsRussia\Айвазовский Иван Константинович.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Artists\ArtistsRussia\Айвазовский Иван Константинович.Designer.cs">
+      <DependentUpon>Айвазовский Иван Константинович.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Artists\ArtistsRussia\Валентин Александрович Серов.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Artists\ArtistsRussia\Валентин Александрович Серов.Designer.cs">
+      <DependentUpon>Валентин Александрович Серов.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Artists\ArtistsRussia\Василий Иванович Суриков.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Artists\ArtistsRussia\Василий Иванович Суриков.Designer.cs">
+      <DependentUpon>Василий Иванович Суриков.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Artists\ArtistsRussia\Виктор Михайлович Васнецов.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Artists\ArtistsRussia\Виктор Михайлович Васнецов.Designer.cs">
+      <DependentUpon>Виктор Михайлович Васнецов.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Artists\ArtistsRussia\Иван Иванович Шишкин.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Artists\ArtistsRussia\Иван Иванович Шишкин.Designer.cs">
+      <DependentUpon>Иван Иванович Шишкин.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Artists\ArtistsRussia\Илья Ефимович Репин.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Artists\ArtistsRussia\Илья Ефимович Репин.Designer.cs">
+      <DependentUpon>Илья Ефимович Репин.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Artists\ArtistsRussia\Карл Павлович Брюллов.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Artists\ArtistsRussia\Карл Павлович Брюллов.Designer.cs">
+      <DependentUpon>Карл Павлович Брюллов.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Artists\ArtistsRussia\Крамской Иван Николаевич.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Artists\ArtistsRussia\Крамской Иван Николаевич.Designer.cs">
+      <DependentUpon>Крамской Иван Николаевич.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Artists\ArtistsRussia\Русские художники.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Artists\ArtistsRussia\Русские художники.Designer.cs">
+      <DependentUpon>Русские художники.cs</DependentUpon>
+    </Compile>
     <Compile Include="contacts.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -190,17 +244,107 @@
     <Compile Include="Museums\London\Lodon.Designer.cs">
       <DependentUpon>Lodon.cs</DependentUpon>
     </Compile>
+    <Compile Include="Museums\London\Галерея_Тейт.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Museums\London\Галерея_Тейт.Designer.cs">
+      <DependentUpon>Галерея_Тейт.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Museums\London\Музей_Виктории_и_Альберта.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Museums\London\Музей_Виктории_и_Альберта.Designer.cs">
+      <DependentUpon>Музей_Виктории_и_Альберта.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Museums\London\Музей_детства.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Museums\London\Музей_детства.Designer.cs">
+      <DependentUpon>Музей_детства.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Museums\London\Музей_игрушек_Поллока.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Museums\London\Музей_игрушек_Поллока.Designer.cs">
+      <DependentUpon>Музей_игрушек_Поллока.cs</DependentUpon>
+    </Compile>
     <Compile Include="Museums\London\Музей_Чарльза_ДиккенсаForm1.cs">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="Museums\London\Музей_Чарльза_ДиккенсаForm1.Designer.cs">
       <DependentUpon>Музей_Чарльза_ДиккенсаForm1.cs</DependentUpon>
     </Compile>
+    <Compile Include="Museums\London\Музей_Шерлока_Холмса.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Museums\London\Музей_Шерлока_Холмса.Designer.cs">
+      <DependentUpon>Музей_Шерлока_Холмса.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Museums\London\Национальная_галерея.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Museums\London\Национальная_галерея.Designer.cs">
+      <DependentUpon>Национальная_галерея.cs</DependentUpon>
+    </Compile>
     <Compile Include="Museums\London\Национальный_морской_музей.cs">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="Museums\London\Национальный_морской_музей.Designer.cs">
       <DependentUpon>Национальный_морской_музей.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Museums\Moscow\Moscow.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Museums\Moscow\Moscow.Designer.cs">
+      <DependentUpon>Moscow.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Museums\Moscow\Архангельский собор.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Museums\Moscow\Архангельский собор.Designer.cs">
+      <DependentUpon>Архангельский собор.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Museums\Moscow\Литературный музей.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Museums\Moscow\Литературный музей.Designer.cs">
+      <DependentUpon>Литературный музей.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Museums\Moscow\Музей динозавров.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Museums\Moscow\Музей динозавров.Designer.cs">
+      <DependentUpon>Музей динозавров.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Museums\Moscow\Музей хлеба.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Museums\Moscow\Музей хлеба.Designer.cs">
+      <DependentUpon>Музей хлеба.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Museums\Moscow\Музей хоккея.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Museums\Moscow\Музей хоккея.Designer.cs">
+      <DependentUpon>Музей хоккея.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Museums\Moscow\Политехнический музей.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Museums\Moscow\Политехнический музей.Designer.cs">
+      <DependentUpon>Политехнический музей.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Museums\Moscow\Успенский собор.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Museums\Moscow\Успенский собор.Designer.cs">
+      <DependentUpon>Успенский собор.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Museums\Moscow\Церковь Ризположения.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Museums\Moscow\Церковь Ризположения.Designer.cs">
+      <DependentUpon>Церковь Ризположения.cs</DependentUpon>
     </Compile>
     <Compile Include="newThread.cs">
       <SubType>Form</SubType>
@@ -310,6 +454,33 @@
     <EmbeddedResource Include="ArtExhibitions_Peterburg.resx">
       <DependentUpon>ArtExhibitions_Peterburg.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="Artists\ArtistsRussia\Айвазовский Иван Константинович.resx">
+      <DependentUpon>Айвазовский Иван Константинович.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Artists\ArtistsRussia\Валентин Александрович Серов.resx">
+      <DependentUpon>Валентин Александрович Серов.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Artists\ArtistsRussia\Василий Иванович Суриков.resx">
+      <DependentUpon>Василий Иванович Суриков.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Artists\ArtistsRussia\Виктор Михайлович Васнецов.resx">
+      <DependentUpon>Виктор Михайлович Васнецов.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Artists\ArtistsRussia\Иван Иванович Шишкин.resx">
+      <DependentUpon>Иван Иванович Шишкин.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Artists\ArtistsRussia\Илья Ефимович Репин.resx">
+      <DependentUpon>Илья Ефимович Репин.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Artists\ArtistsRussia\Карл Павлович Брюллов.resx">
+      <DependentUpon>Карл Павлович Брюллов.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Artists\ArtistsRussia\Крамской Иван Николаевич.resx">
+      <DependentUpon>Крамской Иван Николаевич.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Artists\ArtistsRussia\Русские художники.resx">
+      <DependentUpon>Русские художники.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="contacts.resx">
       <DependentUpon>contacts.cs</DependentUpon>
     </EmbeddedResource>
@@ -343,11 +514,56 @@
     <EmbeddedResource Include="Museums\London\Lodon.resx">
       <DependentUpon>Lodon.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="Museums\London\Галерея_Тейт.resx">
+      <DependentUpon>Галерея_Тейт.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Museums\London\Музей_Виктории_и_Альберта.resx">
+      <DependentUpon>Музей_Виктории_и_Альберта.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Museums\London\Музей_детства.resx">
+      <DependentUpon>Музей_детства.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Museums\London\Музей_игрушек_Поллока.resx">
+      <DependentUpon>Музей_игрушек_Поллока.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Museums\London\Музей_Чарльза_ДиккенсаForm1.resx">
       <DependentUpon>Музей_Чарльза_ДиккенсаForm1.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="Museums\London\Музей_Шерлока_Холмса.resx">
+      <DependentUpon>Музей_Шерлока_Холмса.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Museums\London\Национальная_галерея.resx">
+      <DependentUpon>Национальная_галерея.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Museums\London\Национальный_морской_музей.resx">
       <DependentUpon>Национальный_морской_музей.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Museums\Moscow\Moscow.resx">
+      <DependentUpon>Moscow.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Museums\Moscow\Архангельский собор.resx">
+      <DependentUpon>Архангельский собор.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Museums\Moscow\Литературный музей.resx">
+      <DependentUpon>Литературный музей.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Museums\Moscow\Музей динозавров.resx">
+      <DependentUpon>Музей динозавров.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Museums\Moscow\Музей хлеба.resx">
+      <DependentUpon>Музей хлеба.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Museums\Moscow\Музей хоккея.resx">
+      <DependentUpon>Музей хоккея.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Museums\Moscow\Политехнический музей.resx">
+      <DependentUpon>Политехнический музей.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Museums\Moscow\Успенский собор.resx">
+      <DependentUpon>Успенский собор.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Museums\Moscow\Церковь Ризположения.resx">
+      <DependentUpon>Церковь Ризположения.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="newThread.resx">
       <DependentUpon>newThread.cs</DependentUpon>
