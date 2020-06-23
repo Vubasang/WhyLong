@@ -30,7 +30,7 @@ namespace WhyLong
         }
         public bool InsertAdmins(Admins admins)
         {
-            string sql = "INSERT INTO Admins(CodeEmployee, FullName, YearOfBirth, Gender, Email, Phone, UserName, Password) VALUES(@CodeEmployee, @FullName, @YearOfBirth, @Gender, @Email, @Phone, @UserName, @Password)";
+            string sql = "INSERT INTO Admins(CodeEmployee, FullName, YearOfBirth, Gender, Email, Phone, UserName, Password, Address, Position) VALUES(@CodeEmployee, @FullName, @YearOfBirth, @Gender, @Email, @Phone, @UserName, @Password, @Address, @Position)";
             SqlConnection con = dc.getConnect();
 
             try
@@ -45,6 +45,8 @@ namespace WhyLong
                 cmd.Parameters.Add("@Phone", SqlDbType.NVarChar).Value = admins.Phone;
                 cmd.Parameters.Add("@UserName", SqlDbType.VarChar).Value = admins.UserName;
                 cmd.Parameters.Add("@Password", SqlDbType.VarChar).Value = admins.Password;
+                cmd.Parameters.Add("@Address", SqlDbType.NVarChar).Value = admins.Address;
+                cmd.Parameters.Add("@Position", SqlDbType.NVarChar).Value = admins.Position;
                 cmd.ExecuteNonQuery();
                 con.Close();
             }
@@ -57,7 +59,7 @@ namespace WhyLong
         public bool UpdateAdmins(Admins admins)
         {
             string sql = "update Admins set CodeEmployee = @CodeEmployee, FullName = @FullName, YearOfBirth = @YearOfBirth, Gender = @Gender, " +
-                "Email = @Email, Phone = @Phone, UserName = @UserName, Password = @Password where ID = @ID";
+                "Email = @Email, Phone = @Phone, UserName = @UserName, Password = @Password, Address = @Address, Position = @Position where ID = @ID";
             SqlConnection con = dc.getConnect();
 
             try
@@ -73,6 +75,8 @@ namespace WhyLong
                 cmd.Parameters.Add("@Phone", SqlDbType.NVarChar).Value = admins.Phone;
                 cmd.Parameters.Add("@UserName", SqlDbType.VarChar).Value = admins.UserName;
                 cmd.Parameters.Add("@Password", SqlDbType.VarChar).Value = admins.Password;
+                cmd.Parameters.Add("@Address", SqlDbType.NVarChar).Value = admins.Address;
+                cmd.Parameters.Add("@Position", SqlDbType.NVarChar).Value = admins.Position;
                 cmd.ExecuteNonQuery();
                 con.Close();
             }
@@ -159,6 +163,28 @@ namespace WhyLong
         public DataTable FindPhone(string admin)
         {
             string sql = "SELECT * from Admins WHERE Phone like'%" + admin + "%'";
+            SqlConnection con = dc.getConnect();
+            da = new SqlDataAdapter(sql, con);
+            con.Open();
+            DataTable dt = new DataTable();
+            da.Fill(dt);
+            con.Close();
+            return dt;
+        }
+        public DataTable FindAddress(string admin)
+        {
+            string sql = "SELECT * from Admins WHERE Address like'%" + admin + "%'";
+            SqlConnection con = dc.getConnect();
+            da = new SqlDataAdapter(sql, con);
+            con.Open();
+            DataTable dt = new DataTable();
+            da.Fill(dt);
+            con.Close();
+            return dt;
+        }
+        public DataTable FindPosition(string admin)
+        {
+            string sql = "SELECT * from Admins WHERE Position like'%" + admin + "%'";
             SqlConnection con = dc.getConnect();
             da = new SqlDataAdapter(sql, con);
             con.Open();

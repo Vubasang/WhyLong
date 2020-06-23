@@ -32,6 +32,8 @@ namespace WhyLong
             dt.Columns.Add("Phone");
             dt.Columns.Add("UserName");
             dt.Columns.Add("Password");
+            dt.Columns.Add("Address");
+            dt.Columns.Add("Position");
             return dt;
         }
         public void ShowAllAdmins()
@@ -95,6 +97,18 @@ namespace WhyLong
                 cbbGender.Focus();
                 return false;
             }
+            if (string.IsNullOrWhiteSpace(cbbPosition.Text))
+            {
+                MessageBox.Show("Вы не ввели пол должности", "Сообщение", MessageBoxButtons.OK, MessageBoxIcon.Information);
+                cbbPosition.Focus();
+                return false;
+            }
+            if (string.IsNullOrWhiteSpace(txtAddress.Text))
+            {
+                MessageBox.Show("Вы не ввели пол адреса", "Сообщение", MessageBoxButtons.OK, MessageBoxIcon.Information);
+                txtAddress.Focus();
+                return false;
+            }
             return true;
         }
         public void LockControl()
@@ -107,11 +121,13 @@ namespace WhyLong
             txtCode.ReadOnly = true;
             txtEmail.ReadOnly = true;
             txtFullName.ReadOnly = true;
+            txtAddress.ReadOnly = true;
             txtPhone.ReadOnly = true;
             txtUserName.ReadOnly = true;
             txtPassword.ReadOnly = true;
             dtpYearOfBirth.Enabled = false;
             cbbGender.Enabled = false;
+            cbbPosition.Enabled = false;
             button1.Focus();
         }
         public void UnlockCotrol()
@@ -124,11 +140,13 @@ namespace WhyLong
             txtCode.ReadOnly = false;
             txtEmail.ReadOnly = false;
             txtFullName.ReadOnly = false;
+            txtAddress.ReadOnly = false;
             txtPhone.ReadOnly = false;
             txtUserName.ReadOnly = false;
             txtPassword.ReadOnly = false;
             dtpYearOfBirth.Enabled = true;
             cbbGender.Enabled = true;
+            cbbPosition.Enabled = true;
             txtCode.Focus();
         }
 
@@ -140,11 +158,13 @@ namespace WhyLong
             txtCode.Text = "";
             txtEmail.Text = "";
             txtFullName.Text = "";
+            txtAddress.Text = "";
             txtPhone.Text = "";
             txtUserName.Text = "";
             txtPassword.Text = "";
             dtpYearOfBirth.Text = "";
             cbbGender.Text = "";
+            cbbPosition.Text = "";
         }
 
         private void Button2_Click(object sender, EventArgs e)
@@ -165,9 +185,11 @@ namespace WhyLong
                 dtpYearOfBirth.Text = dataGridView1.Rows[Index].Cells["YearOfBirth"].Value.ToString();
                 cbbGender.Text = dataGridView1.Rows[Index].Cells["Gender"].Value.ToString();
                 txtEmail.Text = dataGridView1.Rows[Index].Cells["Email"].Value.ToString();
+                txtAddress.Text = dataGridView1.Rows[Index].Cells["Address"].Value.ToString();
                 txtPhone.Text = dataGridView1.Rows[Index].Cells["Phone"].Value.ToString();
                 txtUserName.Text = dataGridView1.Rows[Index].Cells["UserName"].Value.ToString();
                 txtPassword.Text = dataGridView1.Rows[Index].Cells["Password"].Value.ToString();
+                cbbPosition.Text = dataGridView1.Rows[Index].Cells["Position"].Value.ToString();
             }
         }
 
@@ -183,9 +205,11 @@ namespace WhyLong
                     admins.YearOfBirth = DateTime.Parse(dtpYearOfBirth.Text);
                     admins.Gender = cbbGender.Text.Trim();
                     admins.Email = txtEmail.Text;
+                    admins.Address = txtAddress.Text;
                     admins.Phone = txtPhone.Text;
                     admins.UserName = txtUserName.Text;
                     admins.Password = txtPassword.Text;
+                    admins.Position = cbbPosition.Text.Trim();
                     if (bllAdmins.InsertAdmins(admins))
                         ShowAllAdmins();
                     else
@@ -203,9 +227,11 @@ namespace WhyLong
                     admins.YearOfBirth = DateTime.Parse(dtpYearOfBirth.Text);
                     admins.Gender = cbbGender.Text.Trim();
                     admins.Email = txtEmail.Text;
+                    admins.Address = txtAddress.Text;
                     admins.Phone = txtPhone.Text;
                     admins.UserName = txtUserName.Text;
                     admins.Password = txtPassword.Text;
+                    admins.Position = cbbPosition.Text.Trim();
                     if (bllAdmins.UpdateAdmins(admins))
                         ShowAllAdmins();
                     else
@@ -320,7 +346,28 @@ namespace WhyLong
             else
                 ShowAllAdmins();
         }
-
+        private void TxtFindAddress_TextChanged(object sender, EventArgs e)
+        {
+            string value = txtFindAddress.Text;
+            if (!string.IsNullOrEmpty(value))
+            {
+                DataTable dt = bllAdmins.FindAddress(value);
+                dataGridView1.DataSource = dt;
+            }
+            else
+                ShowAllAdmins();
+        }
+        private void CbbFindPosition_SelectedIndexChanged(object sender, EventArgs e)
+        {
+            string value = cbbFindPosition.Text;
+            if (!string.IsNullOrEmpty(value))
+            {
+                DataTable dt = bllAdmins.FindPosition(value);
+                dataGridView1.DataSource = dt;
+            }
+            else
+                ShowAllAdmins();
+        }
         private void BtnConclusion_Click(object sender, EventArgs e)
         {
             Microsoft.Office.Interop.Excel.Application ExcelApp = new Microsoft.Office.Interop.Excel.Application();
@@ -336,6 +383,8 @@ namespace WhyLong
             ExcelApp.Cells[1, 7] = "Номер телефона";
             ExcelApp.Cells[1, 8] = "Логин";
             ExcelApp.Cells[1, 9] = "Пароль";
+            ExcelApp.Cells[1, 10] = "Адрес";
+            ExcelApp.Cells[1, 11] = "Должность";
 
             for (int j = 0; j < dataGridView1.Rows.Count; j++)
             {

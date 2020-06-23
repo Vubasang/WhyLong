@@ -64,17 +64,27 @@
             this.txtUserName = new System.Windows.Forms.TextBox();
             this.label16 = new System.Windows.Forms.Label();
             this.label17 = new System.Windows.Forms.Label();
+            this.btnConclusion = new System.Windows.Forms.Button();
+            this.bntExit = new System.Windows.Forms.Button();
+            this.txtAddress = new System.Windows.Forms.TextBox();
+            this.label18 = new System.Windows.Forms.Label();
+            this.cbbPosition = new System.Windows.Forms.ComboBox();
+            this.label19 = new System.Windows.Forms.Label();
+            this.txtFindAddress = new System.Windows.Forms.TextBox();
+            this.label20 = new System.Windows.Forms.Label();
+            this.cbbFindPosition = new System.Windows.Forms.ComboBox();
+            this.label21 = new System.Windows.Forms.Label();
             this.Column1 = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.CodeEmployee = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.FullName = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.YearOfBirth = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.Gender = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.Email = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.Address = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.Phone = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.UserName = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.Password = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.btnConclusion = new System.Windows.Forms.Button();
-            this.bntExit = new System.Windows.Forms.Button();
+            this.Position = new System.Windows.Forms.DataGridViewTextBoxColumn();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).BeginInit();
             this.SuspendLayout();
             // 
@@ -91,7 +101,7 @@
             // label2
             // 
             this.label2.AutoSize = true;
-            this.label2.Location = new System.Drawing.Point(33, 49);
+            this.label2.Location = new System.Drawing.Point(185, 51);
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(113, 17);
             this.label2.TabIndex = 1;
@@ -100,7 +110,7 @@
             // label3
             // 
             this.label3.AutoSize = true;
-            this.label3.Location = new System.Drawing.Point(1131, 43);
+            this.label3.Location = new System.Drawing.Point(1250, 45);
             this.label3.Name = "label3";
             this.label3.Size = new System.Drawing.Size(34, 17);
             this.label3.TabIndex = 2;
@@ -109,7 +119,7 @@
             // label4
             // 
             this.label4.AutoSize = true;
-            this.label4.Location = new System.Drawing.Point(399, 46);
+            this.label4.Location = new System.Drawing.Point(551, 48);
             this.label4.Name = "label4";
             this.label4.Size = new System.Drawing.Size(142, 17);
             this.label4.TabIndex = 3;
@@ -118,7 +128,7 @@
             // label5
             // 
             this.label5.AutoSize = true;
-            this.label5.Location = new System.Drawing.Point(33, 87);
+            this.label5.Location = new System.Drawing.Point(1526, 44);
             this.label5.Name = "label5";
             this.label5.Size = new System.Drawing.Size(49, 17);
             this.label5.TabIndex = 4;
@@ -127,7 +137,7 @@
             // label6
             // 
             this.label6.AutoSize = true;
-            this.label6.Location = new System.Drawing.Point(790, 43);
+            this.label6.Location = new System.Drawing.Point(939, 45);
             this.label6.Name = "label6";
             this.label6.Size = new System.Drawing.Size(101, 17);
             this.label6.TabIndex = 5;
@@ -136,7 +146,7 @@
             // label7
             // 
             this.label7.AutoSize = true;
-            this.label7.Location = new System.Drawing.Point(399, 85);
+            this.label7.Location = new System.Drawing.Point(551, 87);
             this.label7.Name = "label7";
             this.label7.Size = new System.Drawing.Size(121, 17);
             this.label7.TabIndex = 6;
@@ -145,7 +155,7 @@
             // dtpYearOfBirth
             // 
             this.dtpYearOfBirth.Format = System.Windows.Forms.DateTimePickerFormat.Short;
-            this.dtpYearOfBirth.Location = new System.Drawing.Point(917, 40);
+            this.dtpYearOfBirth.Location = new System.Drawing.Point(1054, 42);
             this.dtpYearOfBirth.Name = "dtpYearOfBirth";
             this.dtpYearOfBirth.Size = new System.Drawing.Size(173, 22);
             this.dtpYearOfBirth.TabIndex = 7;
@@ -156,42 +166,42 @@
             this.cbbGender.Items.AddRange(new object[] {
             "Мужский",
             "Женский"});
-            this.cbbGender.Location = new System.Drawing.Point(1207, 40);
+            this.cbbGender.Location = new System.Drawing.Point(1319, 42);
             this.cbbGender.Name = "cbbGender";
-            this.cbbGender.Size = new System.Drawing.Size(118, 24);
+            this.cbbGender.Size = new System.Drawing.Size(180, 24);
             this.cbbGender.TabIndex = 8;
             // 
             // txtCode
             // 
-            this.txtCode.Location = new System.Drawing.Point(152, 46);
+            this.txtCode.Location = new System.Drawing.Point(304, 48);
             this.txtCode.Name = "txtCode";
             this.txtCode.Size = new System.Drawing.Size(219, 22);
             this.txtCode.TabIndex = 9;
             // 
             // txtFullName
             // 
-            this.txtFullName.Location = new System.Drawing.Point(547, 43);
+            this.txtFullName.Location = new System.Drawing.Point(699, 45);
             this.txtFullName.Name = "txtFullName";
             this.txtFullName.Size = new System.Drawing.Size(217, 22);
             this.txtFullName.TabIndex = 10;
             // 
             // txtEmail
             // 
-            this.txtEmail.Location = new System.Drawing.Point(152, 82);
+            this.txtEmail.Location = new System.Drawing.Point(1629, 42);
             this.txtEmail.Name = "txtEmail";
             this.txtEmail.Size = new System.Drawing.Size(219, 22);
             this.txtEmail.TabIndex = 11;
             // 
             // txtPhone
             // 
-            this.txtPhone.Location = new System.Drawing.Point(547, 80);
+            this.txtPhone.Location = new System.Drawing.Point(699, 82);
             this.txtPhone.Name = "txtPhone";
             this.txtPhone.Size = new System.Drawing.Size(217, 22);
             this.txtPhone.TabIndex = 12;
             // 
             // button3
             // 
-            this.button3.Location = new System.Drawing.Point(744, 129);
+            this.button3.Location = new System.Drawing.Point(979, 142);
             this.button3.Name = "button3";
             this.button3.Size = new System.Drawing.Size(128, 38);
             this.button3.TabIndex = 45;
@@ -201,7 +211,7 @@
             // 
             // button4
             // 
-            this.button4.Location = new System.Drawing.Point(956, 129);
+            this.button4.Location = new System.Drawing.Point(1191, 142);
             this.button4.Name = "button4";
             this.button4.Size = new System.Drawing.Size(118, 38);
             this.button4.TabIndex = 44;
@@ -211,7 +221,7 @@
             // 
             // button2
             // 
-            this.button2.Location = new System.Drawing.Point(510, 129);
+            this.button2.Location = new System.Drawing.Point(745, 142);
             this.button2.Name = "button2";
             this.button2.Size = new System.Drawing.Size(146, 38);
             this.button2.TabIndex = 43;
@@ -221,7 +231,7 @@
             // 
             // button1
             // 
-            this.button1.Location = new System.Drawing.Point(318, 129);
+            this.button1.Location = new System.Drawing.Point(553, 142);
             this.button1.Name = "button1";
             this.button1.Size = new System.Drawing.Size(118, 38);
             this.button1.TabIndex = 42;
@@ -231,7 +241,7 @@
             // 
             // txtFindPhone
             // 
-            this.txtFindPhone.Location = new System.Drawing.Point(931, 318);
+            this.txtFindPhone.Location = new System.Drawing.Point(1166, 331);
             this.txtFindPhone.Name = "txtFindPhone";
             this.txtFindPhone.Size = new System.Drawing.Size(189, 22);
             this.txtFindPhone.TabIndex = 59;
@@ -239,7 +249,7 @@
             // 
             // txtFindEmail
             // 
-            this.txtFindEmail.Location = new System.Drawing.Point(931, 279);
+            this.txtFindEmail.Location = new System.Drawing.Point(1166, 292);
             this.txtFindEmail.Name = "txtFindEmail";
             this.txtFindEmail.Size = new System.Drawing.Size(315, 22);
             this.txtFindEmail.TabIndex = 57;
@@ -247,7 +257,7 @@
             // 
             // txtFindFullName
             // 
-            this.txtFindFullName.Location = new System.Drawing.Point(433, 283);
+            this.txtFindFullName.Location = new System.Drawing.Point(668, 296);
             this.txtFindFullName.Name = "txtFindFullName";
             this.txtFindFullName.Size = new System.Drawing.Size(251, 22);
             this.txtFindFullName.TabIndex = 56;
@@ -255,7 +265,7 @@
             // 
             // txtFindCode
             // 
-            this.txtFindCode.Location = new System.Drawing.Point(433, 244);
+            this.txtFindCode.Location = new System.Drawing.Point(668, 257);
             this.txtFindCode.Name = "txtFindCode";
             this.txtFindCode.Size = new System.Drawing.Size(124, 22);
             this.txtFindCode.TabIndex = 54;
@@ -265,7 +275,7 @@
             // 
             this.label14.AutoSize = true;
             this.label14.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.label14.Location = new System.Drawing.Point(746, 318);
+            this.label14.Location = new System.Drawing.Point(981, 331);
             this.label14.Name = "label14";
             this.label14.Size = new System.Drawing.Size(157, 18);
             this.label14.TabIndex = 53;
@@ -275,7 +285,7 @@
             // 
             this.label13.AutoSize = true;
             this.label13.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.label13.Location = new System.Drawing.Point(260, 319);
+            this.label13.Location = new System.Drawing.Point(492, 331);
             this.label13.Name = "label13";
             this.label13.Size = new System.Drawing.Size(136, 18);
             this.label13.TabIndex = 52;
@@ -285,7 +295,7 @@
             // 
             this.label12.AutoSize = true;
             this.label12.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.label12.Location = new System.Drawing.Point(746, 283);
+            this.label12.Location = new System.Drawing.Point(981, 296);
             this.label12.Name = "label12";
             this.label12.Size = new System.Drawing.Size(72, 18);
             this.label12.TabIndex = 51;
@@ -295,7 +305,7 @@
             // 
             this.label11.AutoSize = true;
             this.label11.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.label11.Location = new System.Drawing.Point(257, 283);
+            this.label11.Location = new System.Drawing.Point(492, 296);
             this.label11.Name = "label11";
             this.label11.Size = new System.Drawing.Size(152, 18);
             this.label11.TabIndex = 50;
@@ -305,7 +315,7 @@
             // 
             this.label10.AutoSize = true;
             this.label10.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.label10.Location = new System.Drawing.Point(746, 248);
+            this.label10.Location = new System.Drawing.Point(981, 261);
             this.label10.Name = "label10";
             this.label10.Size = new System.Drawing.Size(65, 18);
             this.label10.TabIndex = 49;
@@ -315,7 +325,7 @@
             // 
             this.label9.AutoSize = true;
             this.label9.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.label9.Location = new System.Drawing.Point(257, 248);
+            this.label9.Location = new System.Drawing.Point(492, 261);
             this.label9.Name = "label9";
             this.label9.Size = new System.Drawing.Size(149, 18);
             this.label9.TabIndex = 48;
@@ -325,7 +335,7 @@
             // 
             this.label8.AutoSize = true;
             this.label8.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.label8.Location = new System.Drawing.Point(198, 179);
+            this.label8.Location = new System.Drawing.Point(433, 192);
             this.label8.Name = "label8";
             this.label8.Size = new System.Drawing.Size(74, 20);
             this.label8.TabIndex = 47;
@@ -335,7 +345,7 @@
             // 
             this.label15.AutoSize = true;
             this.label15.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.label15.Location = new System.Drawing.Point(198, 211);
+            this.label15.Location = new System.Drawing.Point(433, 224);
             this.label15.Name = "label15";
             this.label15.Size = new System.Drawing.Size(324, 20);
             this.label15.TabIndex = 46;
@@ -347,7 +357,7 @@
             this.cbbFindGender.Items.AddRange(new object[] {
             "Мужский",
             "Женский"});
-            this.cbbFindGender.Location = new System.Drawing.Point(931, 244);
+            this.cbbFindGender.Location = new System.Drawing.Point(1166, 257);
             this.cbbFindGender.Name = "cbbFindGender";
             this.cbbFindGender.Size = new System.Drawing.Size(113, 24);
             this.cbbFindGender.TabIndex = 60;
@@ -356,7 +366,7 @@
             // dtpFindYearOfBirth
             // 
             this.dtpFindYearOfBirth.Format = System.Windows.Forms.DateTimePickerFormat.Short;
-            this.dtpFindYearOfBirth.Location = new System.Drawing.Point(433, 319);
+            this.dtpFindYearOfBirth.Location = new System.Drawing.Point(668, 332);
             this.dtpFindYearOfBirth.Name = "dtpFindYearOfBirth";
             this.dtpFindYearOfBirth.Size = new System.Drawing.Size(153, 22);
             this.dtpFindYearOfBirth.TabIndex = 61;
@@ -372,28 +382,30 @@
             this.YearOfBirth,
             this.Gender,
             this.Email,
+            this.Address,
             this.Phone,
             this.UserName,
-            this.Password});
+            this.Password,
+            this.Position});
             this.dataGridView1.Dock = System.Windows.Forms.DockStyle.Bottom;
-            this.dataGridView1.Location = new System.Drawing.Point(0, 449);
+            this.dataGridView1.Location = new System.Drawing.Point(0, 607);
             this.dataGridView1.Name = "dataGridView1";
             this.dataGridView1.RowHeadersWidth = 51;
             this.dataGridView1.RowTemplate.Height = 24;
-            this.dataGridView1.Size = new System.Drawing.Size(1444, 320);
+            this.dataGridView1.Size = new System.Drawing.Size(1924, 448);
             this.dataGridView1.TabIndex = 62;
             this.dataGridView1.CellContentClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.DataGridView1_CellContentClick);
             // 
             // txtPassword
             // 
-            this.txtPassword.Location = new System.Drawing.Point(1207, 79);
+            this.txtPassword.Location = new System.Drawing.Point(1319, 81);
             this.txtPassword.Name = "txtPassword";
             this.txtPassword.Size = new System.Drawing.Size(180, 22);
             this.txtPassword.TabIndex = 66;
             // 
             // txtUserName
             // 
-            this.txtUserName.Location = new System.Drawing.Point(917, 80);
+            this.txtUserName.Location = new System.Drawing.Point(1054, 82);
             this.txtUserName.Name = "txtUserName";
             this.txtUserName.Size = new System.Drawing.Size(173, 22);
             this.txtUserName.TabIndex = 65;
@@ -401,7 +413,7 @@
             // label16
             // 
             this.label16.AutoSize = true;
-            this.label16.Location = new System.Drawing.Point(1131, 83);
+            this.label16.Location = new System.Drawing.Point(1250, 85);
             this.label16.Name = "label16";
             this.label16.Size = new System.Drawing.Size(57, 17);
             this.label16.TabIndex = 64;
@@ -410,11 +422,109 @@
             // label17
             // 
             this.label17.AutoSize = true;
-            this.label17.Location = new System.Drawing.Point(790, 83);
+            this.label17.Location = new System.Drawing.Point(939, 85);
             this.label17.Name = "label17";
             this.label17.Size = new System.Drawing.Size(47, 17);
             this.label17.TabIndex = 63;
             this.label17.Text = "Логин";
+            // 
+            // btnConclusion
+            // 
+            this.btnConclusion.Location = new System.Drawing.Point(900, 414);
+            this.btnConclusion.Name = "btnConclusion";
+            this.btnConclusion.Size = new System.Drawing.Size(146, 51);
+            this.btnConclusion.TabIndex = 67;
+            this.btnConclusion.Text = "Вывод в Excel";
+            this.btnConclusion.UseVisualStyleBackColor = true;
+            this.btnConclusion.Click += new System.EventHandler(this.BtnConclusion_Click);
+            // 
+            // bntExit
+            // 
+            this.bntExit.Location = new System.Drawing.Point(1472, 439);
+            this.bntExit.Name = "bntExit";
+            this.bntExit.Size = new System.Drawing.Size(78, 49);
+            this.bntExit.TabIndex = 68;
+            this.bntExit.Text = "Выход";
+            this.bntExit.UseVisualStyleBackColor = true;
+            this.bntExit.Click += new System.EventHandler(this.BntExit_Click);
+            // 
+            // txtAddress
+            // 
+            this.txtAddress.Location = new System.Drawing.Point(304, 85);
+            this.txtAddress.Name = "txtAddress";
+            this.txtAddress.Size = new System.Drawing.Size(219, 22);
+            this.txtAddress.TabIndex = 72;
+            // 
+            // label18
+            // 
+            this.label18.AutoSize = true;
+            this.label18.Location = new System.Drawing.Point(185, 87);
+            this.label18.Name = "label18";
+            this.label18.Size = new System.Drawing.Size(48, 17);
+            this.label18.TabIndex = 71;
+            this.label18.Text = "Адрес";
+            // 
+            // cbbPosition
+            // 
+            this.cbbPosition.FormattingEnabled = true;
+            this.cbbPosition.Items.AddRange(new object[] {
+            "Админ",
+            "Менеджер",
+            "Сотрудник"});
+            this.cbbPosition.Location = new System.Drawing.Point(1629, 80);
+            this.cbbPosition.Name = "cbbPosition";
+            this.cbbPosition.Size = new System.Drawing.Size(219, 24);
+            this.cbbPosition.TabIndex = 70;
+            // 
+            // label19
+            // 
+            this.label19.AutoSize = true;
+            this.label19.Location = new System.Drawing.Point(1526, 83);
+            this.label19.Name = "label19";
+            this.label19.Size = new System.Drawing.Size(81, 17);
+            this.label19.TabIndex = 69;
+            this.label19.Text = "Должность";
+            // 
+            // txtFindAddress
+            // 
+            this.txtFindAddress.Location = new System.Drawing.Point(668, 367);
+            this.txtFindAddress.Name = "txtFindAddress";
+            this.txtFindAddress.Size = new System.Drawing.Size(251, 22);
+            this.txtFindAddress.TabIndex = 74;
+            this.txtFindAddress.TextChanged += new System.EventHandler(this.TxtFindAddress_TextChanged);
+            // 
+            // label20
+            // 
+            this.label20.AutoSize = true;
+            this.label20.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.label20.Location = new System.Drawing.Point(492, 371);
+            this.label20.Name = "label20";
+            this.label20.Size = new System.Drawing.Size(80, 18);
+            this.label20.TabIndex = 73;
+            this.label20.Text = "По адресу";
+            // 
+            // cbbFindPosition
+            // 
+            this.cbbFindPosition.FormattingEnabled = true;
+            this.cbbFindPosition.Items.AddRange(new object[] {
+            "Админ",
+            "Менеджер",
+            "Сотрудник"});
+            this.cbbFindPosition.Location = new System.Drawing.Point(1166, 362);
+            this.cbbFindPosition.Name = "cbbFindPosition";
+            this.cbbFindPosition.Size = new System.Drawing.Size(161, 24);
+            this.cbbFindPosition.TabIndex = 76;
+            this.cbbFindPosition.SelectedIndexChanged += new System.EventHandler(this.CbbFindPosition_SelectedIndexChanged);
+            // 
+            // label21
+            // 
+            this.label21.AutoSize = true;
+            this.label21.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.label21.Location = new System.Drawing.Point(981, 367);
+            this.label21.Name = "label21";
+            this.label21.Size = new System.Drawing.Size(110, 18);
+            this.label21.TabIndex = 75;
+            this.label21.Text = "По должности";
             // 
             // Column1
             // 
@@ -431,7 +541,7 @@
             this.CodeEmployee.HeaderText = "Код сотрудника";
             this.CodeEmployee.MinimumWidth = 6;
             this.CodeEmployee.Name = "CodeEmployee";
-            this.CodeEmployee.Width = 120;
+            this.CodeEmployee.Width = 80;
             // 
             // FullName
             // 
@@ -439,7 +549,7 @@
             this.FullName.HeaderText = "Ф. И. О. сотрудника";
             this.FullName.MinimumWidth = 6;
             this.FullName.Name = "FullName";
-            this.FullName.Width = 150;
+            this.FullName.Width = 160;
             // 
             // YearOfBirth
             // 
@@ -447,7 +557,6 @@
             this.YearOfBirth.HeaderText = "Год рождения";
             this.YearOfBirth.MinimumWidth = 6;
             this.YearOfBirth.Name = "YearOfBirth";
-            this.YearOfBirth.Width = 120;
             // 
             // Gender
             // 
@@ -455,7 +564,6 @@
             this.Gender.HeaderText = "Пол";
             this.Gender.MinimumWidth = 6;
             this.Gender.Name = "Gender";
-            this.Gender.Width = 80;
             // 
             // Email
             // 
@@ -464,6 +572,14 @@
             this.Email.MinimumWidth = 6;
             this.Email.Name = "Email";
             this.Email.Width = 180;
+            // 
+            // Address
+            // 
+            this.Address.DataPropertyName = "Address";
+            this.Address.HeaderText = "Адрес";
+            this.Address.MinimumWidth = 6;
+            this.Address.Name = "Address";
+            this.Address.Width = 336;
             // 
             // Phone
             // 
@@ -489,31 +605,27 @@
             this.Password.Name = "Password";
             this.Password.Width = 125;
             // 
-            // btnConclusion
+            // Position
             // 
-            this.btnConclusion.Location = new System.Drawing.Point(657, 359);
-            this.btnConclusion.Name = "btnConclusion";
-            this.btnConclusion.Size = new System.Drawing.Size(91, 51);
-            this.btnConclusion.TabIndex = 67;
-            this.btnConclusion.Text = "Вывод";
-            this.btnConclusion.UseVisualStyleBackColor = true;
-            this.btnConclusion.Click += new System.EventHandler(this.BtnConclusion_Click);
-            // 
-            // bntExit
-            // 
-            this.bntExit.Location = new System.Drawing.Point(1254, 383);
-            this.bntExit.Name = "bntExit";
-            this.bntExit.Size = new System.Drawing.Size(78, 49);
-            this.bntExit.TabIndex = 68;
-            this.bntExit.Text = "Выход";
-            this.bntExit.UseVisualStyleBackColor = true;
-            this.bntExit.Click += new System.EventHandler(this.BntExit_Click);
+            this.Position.DataPropertyName = "Position";
+            this.Position.HeaderText = "Должность";
+            this.Position.MinimumWidth = 6;
+            this.Position.Name = "Position";
+            this.Position.Width = 145;
             // 
             // ListOfEmployees
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(1444, 769);
+            this.ClientSize = new System.Drawing.Size(1924, 1055);
+            this.Controls.Add(this.cbbFindPosition);
+            this.Controls.Add(this.label21);
+            this.Controls.Add(this.txtFindAddress);
+            this.Controls.Add(this.label20);
+            this.Controls.Add(this.txtAddress);
+            this.Controls.Add(this.label18);
+            this.Controls.Add(this.cbbPosition);
+            this.Controls.Add(this.label19);
             this.Controls.Add(this.bntExit);
             this.Controls.Add(this.btnConclusion);
             this.Controls.Add(this.txtPassword);
@@ -555,6 +667,7 @@
             this.Name = "ListOfEmployees";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Список сотрудников";
+            this.WindowState = System.Windows.Forms.FormWindowState.Maximized;
             this.Load += new System.EventHandler(this.ListOfEmployees_Load);
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).EndInit();
             this.ResumeLayout(false);
@@ -600,16 +713,26 @@
         private System.Windows.Forms.TextBox txtUserName;
         private System.Windows.Forms.Label label16;
         private System.Windows.Forms.Label label17;
+        private System.Windows.Forms.Button btnConclusion;
+        private System.Windows.Forms.Button bntExit;
+        private System.Windows.Forms.TextBox txtAddress;
+        private System.Windows.Forms.Label label18;
+        private System.Windows.Forms.ComboBox cbbPosition;
+        private System.Windows.Forms.Label label19;
+        private System.Windows.Forms.TextBox txtFindAddress;
+        private System.Windows.Forms.Label label20;
+        private System.Windows.Forms.ComboBox cbbFindPosition;
+        private System.Windows.Forms.Label label21;
         private System.Windows.Forms.DataGridViewTextBoxColumn Column1;
         private System.Windows.Forms.DataGridViewTextBoxColumn CodeEmployee;
         private System.Windows.Forms.DataGridViewTextBoxColumn FullName;
         private System.Windows.Forms.DataGridViewTextBoxColumn YearOfBirth;
         private System.Windows.Forms.DataGridViewTextBoxColumn Gender;
         private System.Windows.Forms.DataGridViewTextBoxColumn Email;
+        private System.Windows.Forms.DataGridViewTextBoxColumn Address;
         private System.Windows.Forms.DataGridViewTextBoxColumn Phone;
         private System.Windows.Forms.DataGridViewTextBoxColumn UserName;
         private System.Windows.Forms.DataGridViewTextBoxColumn Password;
-        private System.Windows.Forms.Button btnConclusion;
-        private System.Windows.Forms.Button bntExit;
+        private System.Windows.Forms.DataGridViewTextBoxColumn Position;
     }
 }

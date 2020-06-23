@@ -17,5 +17,7 @@ namespace WhyLong
         public string Phone { set; get; }
         public string UserName { set; get; }
         public string Password { set; get; }
+        public string Address { set; get; }
+        public string Position { set; get; }
     }
 }

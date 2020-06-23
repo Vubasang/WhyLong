@@ -35,6 +35,12 @@
             this.художникиToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.русскиеХудожникиToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.начинающиеToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.французскиеХудожникиToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.голландскиеХудожникиToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.немецкиеХудожникиToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.английскиеХудожникиToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.американскиеХудожникиToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.австрийскиеХудожникиToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.музеиМираToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.страныToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.италияToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
@@ -151,12 +157,6 @@
             this.panel1 = new System.Windows.Forms.Panel();
             this.label1 = new System.Windows.Forms.Label();
             this.timer1 = new System.Windows.Forms.Timer(this.components);
-            this.французскиеХудожникиToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.голландскиеХудожникиToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.немецкиеХудожникиToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.английскиеХудожникиToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.американскиеХудожникиToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.австрийскиеХудожникиToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.menuStrip1.SuspendLayout();
             this.panel1.SuspendLayout();
             this.SuspendLayout();
@@ -199,7 +199,7 @@
             this.музеиМираToolStripMenuItem,
             this.каталогToolStripMenuItem});
             this.картиныToolStripMenuItem.Name = "картиныToolStripMenuItem";
-            this.картиныToolStripMenuItem.Size = new System.Drawing.Size(224, 26);
+            this.картиныToolStripMenuItem.Size = new System.Drawing.Size(153, 26);
             this.картиныToolStripMenuItem.Text = "Картины";
             // 
             // художникиToolStripMenuItem
@@ -214,7 +214,7 @@
             this.американскиеХудожникиToolStripMenuItem,
             this.австрийскиеХудожникиToolStripMenuItem});
             this.художникиToolStripMenuItem.Name = "художникиToolStripMenuItem";
-            this.художникиToolStripMenuItem.Size = new System.Drawing.Size(224, 26);
+            this.художникиToolStripMenuItem.Size = new System.Drawing.Size(177, 26);
             this.художникиToolStripMenuItem.Text = "Художники";
             // 
             // русскиеХудожникиToolStripMenuItem
@@ -230,13 +230,49 @@
             this.начинающиеToolStripMenuItem.Size = new System.Drawing.Size(274, 26);
             this.начинающиеToolStripMenuItem.Text = "Итальянские художники";
             // 
+            // французскиеХудожникиToolStripMenuItem
+            // 
+            this.французскиеХудожникиToolStripMenuItem.Name = "французскиеХудожникиToolStripMenuItem";
+            this.французскиеХудожникиToolStripMenuItem.Size = new System.Drawing.Size(274, 26);
+            this.французскиеХудожникиToolStripMenuItem.Text = "Французские художники";
+            // 
+            // голландскиеХудожникиToolStripMenuItem
+            // 
+            this.голландскиеХудожникиToolStripMenuItem.Name = "голландскиеХудожникиToolStripMenuItem";
+            this.голландскиеХудожникиToolStripMenuItem.Size = new System.Drawing.Size(274, 26);
+            this.голландскиеХудожникиToolStripMenuItem.Text = "Голландские художники";
+            // 
+            // немецкиеХудожникиToolStripMenuItem
+            // 
+            this.немецкиеХудожникиToolStripMenuItem.Name = "немецкиеХудожникиToolStripMenuItem";
+            this.немецкиеХудожникиToolStripMenuItem.Size = new System.Drawing.Size(274, 26);
+            this.немецкиеХудожникиToolStripMenuItem.Text = "Немецкие художники";
+            // 
+            // английскиеХудожникиToolStripMenuItem
+            // 
+            this.английскиеХудожникиToolStripMenuItem.Name = "английскиеХудожникиToolStripMenuItem";
+            this.английскиеХудожникиToolStripMenuItem.Size = new System.Drawing.Size(274, 26);
+            this.английскиеХудожникиToolStripMenuItem.Text = "Английские художники";
+            // 
+            // американскиеХудожникиToolStripMenuItem
+            // 
+            this.американскиеХудожникиToolStripMenuItem.Name = "американскиеХудожникиToolStripMenuItem";
+            this.американскиеХудожникиToolStripMenuItem.Size = new System.Drawing.Size(274, 26);
+            this.американскиеХудожникиToolStripMenuItem.Text = "Американские художники";
+            // 
+            // австрийскиеХудожникиToolStripMenuItem
+            // 
+            this.австрийскиеХудожникиToolStripMenuItem.Name = "австрийскиеХудожникиToolStripMenuItem";
+            this.австрийскиеХудожникиToolStripMenuItem.Size = new System.Drawing.Size(274, 26);
+            this.австрийскиеХудожникиToolStripMenuItem.Text = "Австрийские художники";
+            // 
             // музеиМираToolStripMenuItem
             // 
             this.музеиМираToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
             this.страныToolStripMenuItem,
             this.городаToolStripMenuItem});
             this.музеиМираToolStripMenuItem.Name = "музеиМираToolStripMenuItem";
-            this.музеиМираToolStripMenuItem.Size = new System.Drawing.Size(224, 26);
+            this.музеиМираToolStripMenuItem.Size = new System.Drawing.Size(177, 26);
             this.музеиМираToolStripMenuItem.Text = "Музеи мира";
             // 
             // страныToolStripMenuItem
@@ -382,7 +418,7 @@
             this.прагаToolStripMenuItem,
             this.ослоToolStripMenuItem});
             this.городаToolStripMenuItem.Name = "городаToolStripMenuItem";
-            this.городаToolStripMenuItem.Size = new System.Drawing.Size(224, 26);
+            this.городаToolStripMenuItem.Size = new System.Drawing.Size(144, 26);
             this.городаToolStripMenuItem.Text = "Города";
             // 
             // лондонToolStripMenuItem
@@ -395,7 +431,7 @@
             // москваToolStripMenuItem
             // 
             this.москваToolStripMenuItem.Name = "москваToolStripMenuItem";
-            this.москваToolStripMenuItem.Size = new System.Drawing.Size(224, 26);
+            this.москваToolStripMenuItem.Size = new System.Drawing.Size(170, 26);
             this.москваToolStripMenuItem.Text = "Москва";
             this.москваToolStripMenuItem.Click += new System.EventHandler(this.МоскваToolStripMenuItem_Click);
             // 
@@ -515,7 +551,7 @@
             this.пейзажToolStripMenuItem,
             this.портретToolStripMenuItem});
             this.каталогToolStripMenuItem.Name = "каталогToolStripMenuItem";
-            this.каталогToolStripMenuItem.Size = new System.Drawing.Size(224, 26);
+            this.каталогToolStripMenuItem.Size = new System.Drawing.Size(177, 26);
             this.каталогToolStripMenuItem.Text = "Каталог";
             // 
             // живописьToolStripMenuItem
@@ -585,7 +621,7 @@
             this.фильмыОХудожникахToolStripMenuItem,
             this.учимсяРисоватьToolStripMenuItem});
             this.историяToolStripMenuItem.Name = "историяToolStripMenuItem";
-            this.историяToolStripMenuItem.Size = new System.Drawing.Size(224, 26);
+            this.историяToolStripMenuItem.Size = new System.Drawing.Size(153, 26);
             this.историяToolStripMenuItem.Text = "История";
             // 
             // биографииToolStripMenuItem
@@ -1067,42 +1103,6 @@
             this.timer1.Enabled = true;
             this.timer1.Tick += new System.EventHandler(this.Timer1_Tick);
             // 
-            // французскиеХудожникиToolStripMenuItem
-            // 
-            this.французскиеХудожникиToolStripMenuItem.Name = "французскиеХудожникиToolStripMenuItem";
-            this.французскиеХудожникиToolStripMenuItem.Size = new System.Drawing.Size(274, 26);
-            this.французскиеХудожникиToolStripMenuItem.Text = "Французские художники";
-            // 
-            // голландскиеХудожникиToolStripMenuItem
-            // 
-            this.голландскиеХудожникиToolStripMenuItem.Name = "голландскиеХудожникиToolStripMenuItem";
-            this.голландскиеХудожникиToolStripMenuItem.Size = new System.Drawing.Size(274, 26);
-            this.голландскиеХудожникиToolStripMenuItem.Text = "Голландские художники";
-            // 
-            // немецкиеХудожникиToolStripMenuItem
-            // 
-            this.немецкиеХудожникиToolStripMenuItem.Name = "немецкиеХудожникиToolStripMenuItem";
-            this.немецкиеХудожникиToolStripMenuItem.Size = new System.Drawing.Size(274, 26);
-            this.немецкиеХудожникиToolStripMenuItem.Text = "Немецкие художники";
-            // 
-            // английскиеХудожникиToolStripMenuItem
-            // 
-            this.английскиеХудожникиToolStripMenuItem.Name = "английскиеХудожникиToolStripMenuItem";
-            this.английскиеХудожникиToolStripMenuItem.Size = new System.Drawing.Size(274, 26);
-            this.английскиеХудожникиToolStripMenuItem.Text = "Английские художники";
-            // 
-            // американскиеХудожникиToolStripMenuItem
-            // 
-            this.американскиеХудожникиToolStripMenuItem.Name = "американскиеХудожникиToolStripMenuItem";
-            this.американскиеХудожникиToolStripMenuItem.Size = new System.Drawing.Size(274, 26);
-            this.американскиеХудожникиToolStripMenuItem.Text = "Американские художники";
-            // 
-            // австрийскиеХудожникиToolStripMenuItem
-            // 
-            this.австрийскиеХудожникиToolStripMenuItem.Name = "австрийскиеХудожникиToolStripMenuItem";
-            this.австрийскиеХудожникиToolStripMenuItem.Size = new System.Drawing.Size(274, 26);
-            this.австрийскиеХудожникиToolStripMenuItem.Text = "Австрийские художники";
-            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
@@ -1111,7 +1111,7 @@
             this.Controls.Add(this.panel1);
             this.Controls.Add(this.menuStrip1);
             this.MainMenuStrip = this.menuStrip1;
-            this.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.Margin = new System.Windows.Forms.Padding(4);
             this.Name = "Form1";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Картинная галерея";

@@ -54,5 +54,13 @@ namespace WhyLong
         {
             return dalAdmins.FindPhone(admin);
         }
+        public DataTable FindAddress(string admin)
+        {
+            return dalAdmins.FindAddress(admin);
+        }
+        public DataTable FindPosition(string admin)
+        {
+            return dalAdmins.FindPosition(admin);
+        }
     }
 }
