@@ -172,5 +172,17 @@ namespace WhyLong
             Museums.Moscow.Moscow f = new Museums.Moscow.Moscow();
             f.ShowDialog();
         }
+
+        private void АРТКЛУToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            ListOfArtists f = new ListOfArtists();
+            f.ShowDialog();
+        }
+
+        private void ToolStripMenuItem1_Click(object sender, EventArgs e)
+        {
+            ListsOfArt f = new ListsOfArt();
+            f.ShowDialog();
+        }
     }
 }

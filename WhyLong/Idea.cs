@@ -53,6 +53,7 @@ namespace WhyLong
                         cmd.ExecuteNonQuery();
                         MessageBox.Show("Идеи и предложения отправлены. Спасибо вам большое!", "Уведомление", MessageBoxButtons.OK, MessageBoxIcon.Information);
                         Clear();
+                        Close();
                     }
                     catch (Exception ex)
                     {

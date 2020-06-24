@@ -102,6 +102,18 @@
     <Compile Include="aboutUs.Designer.cs">
       <DependentUpon>aboutUs.cs</DependentUpon>
     </Compile>
+    <Compile Include="AddArtists.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="AddArtists.Designer.cs">
+      <DependentUpon>AddArtists.cs</DependentUpon>
+    </Compile>
+    <Compile Include="AddPaintings.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="AddPaintings.Designer.cs">
+      <DependentUpon>AddPaintings.cs</DependentUpon>
+    </Compile>
     <Compile Include="AdminsBLL.cs" />
     <Compile Include="AdminsDAL.cs" />
     <Compile Include="advertisement.cs">
@@ -218,11 +230,23 @@
       <DependentUpon>Idea.cs</DependentUpon>
     </Compile>
     <Compile Include="IPerson.cs" />
+    <Compile Include="ListOfArtists.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ListOfArtists.Designer.cs">
+      <DependentUpon>ListOfArtists.cs</DependentUpon>
+    </Compile>
     <Compile Include="ListOfEmployees.cs">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="ListOfEmployees.Designer.cs">
       <DependentUpon>ListOfEmployees.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ListsOfArt.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ListsOfArt.Designer.cs">
+      <DependentUpon>ListsOfArt.cs</DependentUpon>
     </Compile>
     <Compile Include="LoginForEmployees.cs">
       <SubType>Form</SubType>
@@ -454,6 +478,12 @@
     <EmbeddedResource Include="aboutUs.resx">
       <DependentUpon>aboutUs.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="AddArtists.resx">
+      <DependentUpon>AddArtists.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="AddPaintings.resx">
+      <DependentUpon>AddPaintings.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="advertisement.resx">
       <DependentUpon>advertisement.cs</DependentUpon>
     </EmbeddedResource>
@@ -508,8 +538,14 @@
     <EmbeddedResource Include="Idea.resx">
       <DependentUpon>Idea.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="ListOfArtists.resx">
+      <DependentUpon>ListOfArtists.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="ListOfEmployees.resx">
       <DependentUpon>ListOfEmployees.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ListsOfArt.resx">
+      <DependentUpon>ListsOfArt.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="LoginForEmployees.resx">
       <DependentUpon>LoginForEmployees.cs</DependentUpon>

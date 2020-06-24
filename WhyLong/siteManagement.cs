@@ -28,5 +28,17 @@ namespace WhyLong
             Users.ListOfUsers f = new Users.ListOfUsers();
             f.ShowDialog();
         }
+
+        private void ДобавитьХудожниковToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            AddArtists f = new AddArtists();
+            f.ShowDialog();
+        }
+
+        private void ДобавитьКартинToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            AddPaintings f = new AddPaintings();
+            f.ShowDialog();
+        }
     }
 }

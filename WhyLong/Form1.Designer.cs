@@ -95,29 +95,6 @@
             this.фильмыОХудожникахToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.учимсяРисоватьToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.аРТКЛУToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.экToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.живописьToolStripMenuItem1 = new System.Windows.Forms.ToolStripMenuItem();
-            this.графикаToolStripMenuItem1 = new System.Windows.Forms.ToolStripMenuItem();
-            this.объектToolStripMenuItem1 = new System.Windows.Forms.ToolStripMenuItem();
-            this.фотографияToolStripMenuItem1 = new System.Windows.Forms.ToolStripMenuItem();
-            this.коллажToolStripMenuItem1 = new System.Windows.Forms.ToolStripMenuItem();
-            this.видеоToolStripMenuItem1 = new System.Windows.Forms.ToolStripMenuItem();
-            this.принтыToolStripMenuItem1 = new System.Windows.Forms.ToolStripMenuItem();
-            this.абстракцияToolStripMenuItem1 = new System.Windows.Forms.ToolStripMenuItem();
-            this.пейзажToolStripMenuItem1 = new System.Windows.Forms.ToolStripMenuItem();
-            this.портретToolStripMenuItem1 = new System.Windows.Forms.ToolStripMenuItem();
-            this.хендмейдToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.иконыToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.скульптураToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.детскиеРисункиToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.дизайнОдеждыToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.магазинToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.работыНаПродажуToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.каталогАвторовToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.обществоToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.ленаToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.топ100ToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.бесплатныйФотобанкToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.иНТЕРАКТИВToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.авишаВыставокToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.конкурсыToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
@@ -157,6 +134,7 @@
             this.panel1 = new System.Windows.Forms.Panel();
             this.label1 = new System.Windows.Forms.Label();
             this.timer1 = new System.Windows.Forms.Timer(this.components);
+            this.toolStripMenuItem1 = new System.Windows.Forms.ToolStripMenuItem();
             this.menuStrip1.SuspendLayout();
             this.panel1.SuspendLayout();
             this.SuspendLayout();
@@ -167,6 +145,7 @@
             this.menuStrip1.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
             this.музейToolStripMenuItem,
             this.аРТКЛУToolStripMenuItem,
+            this.toolStripMenuItem1,
             this.иНТЕРАКТИВToolStripMenuItem,
             this.новостиToolStripMenuItem,
             this.афишаКультурныхToolStripMenuItem,
@@ -178,7 +157,7 @@
             this.menuStrip1.Location = new System.Drawing.Point(0, 0);
             this.menuStrip1.Name = "menuStrip1";
             this.menuStrip1.Padding = new System.Windows.Forms.Padding(5, 2, 0, 2);
-            this.menuStrip1.Size = new System.Drawing.Size(1307, 28);
+            this.menuStrip1.Size = new System.Drawing.Size(1512, 28);
             this.menuStrip1.TabIndex = 1;
             this.menuStrip1.Text = "menuStrip1";
             // 
@@ -644,174 +623,10 @@
             // 
             // аРТКЛУToolStripMenuItem
             // 
-            this.аРТКЛУToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
-            this.экToolStripMenuItem,
-            this.магазинToolStripMenuItem,
-            this.обществоToolStripMenuItem});
             this.аРТКЛУToolStripMenuItem.Name = "аРТКЛУToolStripMenuItem";
-            this.аРТКЛУToolStripMenuItem.Size = new System.Drawing.Size(79, 24);
-            this.аРТКЛУToolStripMenuItem.Text = "Артклуб";
-            // 
-            // экToolStripMenuItem
-            // 
-            this.экToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
-            this.живописьToolStripMenuItem1,
-            this.графикаToolStripMenuItem1,
-            this.объектToolStripMenuItem1,
-            this.фотографияToolStripMenuItem1,
-            this.коллажToolStripMenuItem1,
-            this.видеоToolStripMenuItem1,
-            this.принтыToolStripMenuItem1,
-            this.абстракцияToolStripMenuItem1,
-            this.пейзажToolStripMenuItem1,
-            this.портретToolStripMenuItem1,
-            this.хендмейдToolStripMenuItem,
-            this.иконыToolStripMenuItem,
-            this.скульптураToolStripMenuItem,
-            this.детскиеРисункиToolStripMenuItem,
-            this.дизайнОдеждыToolStripMenuItem});
-            this.экToolStripMenuItem.Name = "экToolStripMenuItem";
-            this.экToolStripMenuItem.Size = new System.Drawing.Size(175, 26);
-            this.экToolStripMenuItem.Text = "Экспозиция";
-            // 
-            // живописьToolStripMenuItem1
-            // 
-            this.живописьToolStripMenuItem1.Name = "живописьToolStripMenuItem1";
-            this.живописьToolStripMenuItem1.Size = new System.Drawing.Size(208, 26);
-            this.живописьToolStripMenuItem1.Text = "Живопись";
-            // 
-            // графикаToolStripMenuItem1
-            // 
-            this.графикаToolStripMenuItem1.Name = "графикаToolStripMenuItem1";
-            this.графикаToolStripMenuItem1.Size = new System.Drawing.Size(208, 26);
-            this.графикаToolStripMenuItem1.Text = "Графика";
-            // 
-            // объектToolStripMenuItem1
-            // 
-            this.объектToolStripMenuItem1.Name = "объектToolStripMenuItem1";
-            this.объектToolStripMenuItem1.Size = new System.Drawing.Size(208, 26);
-            this.объектToolStripMenuItem1.Text = "Объект";
-            // 
-            // фотографияToolStripMenuItem1
-            // 
-            this.фотографияToolStripMenuItem1.Name = "фотографияToolStripMenuItem1";
-            this.фотографияToolStripMenuItem1.Size = new System.Drawing.Size(208, 26);
-            this.фотографияToolStripMenuItem1.Text = "Фотография";
-            // 
-            // коллажToolStripMenuItem1
-            // 
-            this.коллажToolStripMenuItem1.Name = "коллажToolStripMenuItem1";
-            this.коллажToolStripMenuItem1.Size = new System.Drawing.Size(208, 26);
-            this.коллажToolStripMenuItem1.Text = "Коллаж";
-            // 
-            // видеоToolStripMenuItem1
-            // 
-            this.видеоToolStripMenuItem1.Name = "видеоToolStripMenuItem1";
-            this.видеоToolStripMenuItem1.Size = new System.Drawing.Size(208, 26);
-            this.видеоToolStripMenuItem1.Text = "Видео";
-            // 
-            // принтыToolStripMenuItem1
-            // 
-            this.принтыToolStripMenuItem1.Name = "принтыToolStripMenuItem1";
-            this.принтыToolStripMenuItem1.Size = new System.Drawing.Size(208, 26);
-            this.принтыToolStripMenuItem1.Text = "Принты";
-            // 
-            // абстракцияToolStripMenuItem1
-            // 
-            this.абстракцияToolStripMenuItem1.Name = "абстракцияToolStripMenuItem1";
-            this.абстракцияToolStripMenuItem1.Size = new System.Drawing.Size(208, 26);
-            this.абстракцияToolStripMenuItem1.Text = "Абстракция";
-            // 
-            // пейзажToolStripMenuItem1
-            // 
-            this.пейзажToolStripMenuItem1.Name = "пейзажToolStripMenuItem1";
-            this.пейзажToolStripMenuItem1.Size = new System.Drawing.Size(208, 26);
-            this.пейзажToolStripMenuItem1.Text = "Пейзаж";
-            // 
-            // портретToolStripMenuItem1
-            // 
-            this.портретToolStripMenuItem1.Name = "портретToolStripMenuItem1";
-            this.портретToolStripMenuItem1.Size = new System.Drawing.Size(208, 26);
-            this.портретToolStripMenuItem1.Text = "Портрет";
-            // 
-            // хендмейдToolStripMenuItem
-            // 
-            this.хендмейдToolStripMenuItem.Name = "хендмейдToolStripMenuItem";
-            this.хендмейдToolStripMenuItem.Size = new System.Drawing.Size(208, 26);
-            this.хендмейдToolStripMenuItem.Text = "Хендмейд";
-            // 
-            // иконыToolStripMenuItem
-            // 
-            this.иконыToolStripMenuItem.Name = "иконыToolStripMenuItem";
-            this.иконыToolStripMenuItem.Size = new System.Drawing.Size(208, 26);
-            this.иконыToolStripMenuItem.Text = "Иконы";
-            // 
-            // скульптураToolStripMenuItem
-            // 
-            this.скульптураToolStripMenuItem.Name = "скульптураToolStripMenuItem";
-            this.скульптураToolStripMenuItem.Size = new System.Drawing.Size(208, 26);
-            this.скульптураToolStripMenuItem.Text = "Скульптура";
-            // 
-            // детскиеРисункиToolStripMenuItem
-            // 
-            this.детскиеРисункиToolStripMenuItem.Name = "детскиеРисункиToolStripMenuItem";
-            this.детскиеРисункиToolStripMenuItem.Size = new System.Drawing.Size(208, 26);
-            this.детскиеРисункиToolStripMenuItem.Text = "Детские рисунки";
-            // 
-            // дизайнОдеждыToolStripMenuItem
-            // 
-            this.дизайнОдеждыToolStripMenuItem.Name = "дизайнОдеждыToolStripMenuItem";
-            this.дизайнОдеждыToolStripMenuItem.Size = new System.Drawing.Size(208, 26);
-            this.дизайнОдеждыToolStripMenuItem.Text = "Дизайн одежды";
-            // 
-            // магазинToolStripMenuItem
-            // 
-            this.магазинToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
-            this.работыНаПродажуToolStripMenuItem,
-            this.каталогАвторовToolStripMenuItem});
-            this.магазинToolStripMenuItem.Name = "магазинToolStripMenuItem";
-            this.магазинToolStripMenuItem.Size = new System.Drawing.Size(175, 26);
-            this.магазинToolStripMenuItem.Text = "Магазин";
-            // 
-            // работыНаПродажуToolStripMenuItem
-            // 
-            this.работыНаПродажуToolStripMenuItem.Name = "работыНаПродажуToolStripMenuItem";
-            this.работыНаПродажуToolStripMenuItem.Size = new System.Drawing.Size(229, 26);
-            this.работыНаПродажуToolStripMenuItem.Text = "Работы на продажу";
-            // 
-            // каталогАвторовToolStripMenuItem
-            // 
-            this.каталогАвторовToolStripMenuItem.Name = "каталогАвторовToolStripMenuItem";
-            this.каталогАвторовToolStripMenuItem.Size = new System.Drawing.Size(229, 26);
-            this.каталогАвторовToolStripMenuItem.Text = "Каталог авторов";
-            // 
-            // обществоToolStripMenuItem
-            // 
-            this.обществоToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
-            this.ленаToolStripMenuItem,
-            this.топ100ToolStripMenuItem,
-            this.бесплатныйФотобанкToolStripMenuItem});
-            this.обществоToolStripMenuItem.Name = "обществоToolStripMenuItem";
-            this.обществоToolStripMenuItem.Size = new System.Drawing.Size(175, 26);
-            this.обществоToolStripMenuItem.Text = "Общество";
-            // 
-            // ленаToolStripMenuItem
-            // 
-            this.ленаToolStripMenuItem.Name = "ленаToolStripMenuItem";
-            this.ленаToolStripMenuItem.Size = new System.Drawing.Size(247, 26);
-            this.ленаToolStripMenuItem.Text = "Лента";
-            // 
-            // топ100ToolStripMenuItem
-            // 
-            this.топ100ToolStripMenuItem.Name = "топ100ToolStripMenuItem";
-            this.топ100ToolStripMenuItem.Size = new System.Drawing.Size(247, 26);
-            this.топ100ToolStripMenuItem.Text = "Топ-100";
-            // 
-            // бесплатныйФотобанкToolStripMenuItem
-            // 
-            this.бесплатныйФотобанкToolStripMenuItem.Name = "бесплатныйФотобанкToolStripMenuItem";
-            this.бесплатныйФотобанкToolStripMenuItem.Size = new System.Drawing.Size(247, 26);
-            this.бесплатныйФотобанкToolStripMenuItem.Text = "Бесплатный фотобанк";
+            this.аРТКЛУToolStripMenuItem.Size = new System.Drawing.Size(161, 24);
+            this.аРТКЛУToolStripMenuItem.Text = "Список художников";
+            this.аРТКЛУToolStripMenuItem.Click += new System.EventHandler(this.АРТКЛУToolStripMenuItem_Click);
             // 
             // иНТЕРАКТИВToolStripMenuItem
             // 
@@ -825,14 +640,14 @@
             // авишаВыставокToolStripMenuItem
             // 
             this.авишаВыставокToolStripMenuItem.Name = "авишаВыставокToolStripMenuItem";
-            this.авишаВыставокToolStripMenuItem.Size = new System.Drawing.Size(209, 26);
+            this.авишаВыставокToolStripMenuItem.Size = new System.Drawing.Size(224, 26);
             this.авишаВыставокToolStripMenuItem.Text = "Афиша выставок";
             this.авишаВыставокToolStripMenuItem.Click += new System.EventHandler(this.АвишаВыставокToolStripMenuItem_Click);
             // 
             // конкурсыToolStripMenuItem
             // 
             this.конкурсыToolStripMenuItem.Name = "конкурсыToolStripMenuItem";
-            this.конкурсыToolStripMenuItem.Size = new System.Drawing.Size(209, 26);
+            this.конкурсыToolStripMenuItem.Size = new System.Drawing.Size(224, 26);
             this.конкурсыToolStripMenuItem.Text = "Конкурсы";
             this.конкурсыToolStripMenuItem.Click += new System.EventHandler(this.КонкурсыToolStripMenuItem_Click);
             // 
@@ -1103,11 +918,18 @@
             this.timer1.Enabled = true;
             this.timer1.Tick += new System.EventHandler(this.Timer1_Tick);
             // 
+            // toolStripMenuItem1
+            // 
+            this.toolStripMenuItem1.Name = "toolStripMenuItem1";
+            this.toolStripMenuItem1.Size = new System.Drawing.Size(125, 24);
+            this.toolStripMenuItem1.Text = "Список картин";
+            this.toolStripMenuItem1.Click += new System.EventHandler(this.ToolStripMenuItem1_Click);
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(1307, 594);
+            this.ClientSize = new System.Drawing.Size(1512, 594);
             this.Controls.Add(this.panel1);
             this.Controls.Add(this.menuStrip1);
             this.MainMenuStrip = this.menuStrip1;
@@ -1186,29 +1008,6 @@
         private System.Windows.Forms.ToolStripMenuItem фильмыОХудожникахToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem учимсяРисоватьToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem аРТКЛУToolStripMenuItem;
-        private System.Windows.Forms.ToolStripMenuItem экToolStripMenuItem;
-        private System.Windows.Forms.ToolStripMenuItem живописьToolStripMenuItem1;
-        private System.Windows.Forms.ToolStripMenuItem графикаToolStripMenuItem1;
-        private System.Windows.Forms.ToolStripMenuItem объектToolStripMenuItem1;
-        private System.Windows.Forms.ToolStripMenuItem фотографияToolStripMenuItem1;
-        private System.Windows.Forms.ToolStripMenuItem коллажToolStripMenuItem1;
-        private System.Windows.Forms.ToolStripMenuItem видеоToolStripMenuItem1;
-        private System.Windows.Forms.ToolStripMenuItem принтыToolStripMenuItem1;
-        private System.Windows.Forms.ToolStripMenuItem абстракцияToolStripMenuItem1;
-        private System.Windows.Forms.ToolStripMenuItem пейзажToolStripMenuItem1;
-        private System.Windows.Forms.ToolStripMenuItem портретToolStripMenuItem1;
-        private System.Windows.Forms.ToolStripMenuItem хендмейдToolStripMenuItem;
-        private System.Windows.Forms.ToolStripMenuItem иконыToolStripMenuItem;
-        private System.Windows.Forms.ToolStripMenuItem скульптураToolStripMenuItem;
-        private System.Windows.Forms.ToolStripMenuItem детскиеРисункиToolStripMenuItem;
-        private System.Windows.Forms.ToolStripMenuItem дизайнОдеждыToolStripMenuItem;
-        private System.Windows.Forms.ToolStripMenuItem магазинToolStripMenuItem;
-        private System.Windows.Forms.ToolStripMenuItem работыНаПродажуToolStripMenuItem;
-        private System.Windows.Forms.ToolStripMenuItem каталогАвторовToolStripMenuItem;
-        private System.Windows.Forms.ToolStripMenuItem обществоToolStripMenuItem;
-        private System.Windows.Forms.ToolStripMenuItem ленаToolStripMenuItem;
-        private System.Windows.Forms.ToolStripMenuItem топ100ToolStripMenuItem;
-        private System.Windows.Forms.ToolStripMenuItem бесплатныйФотобанкToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem иНТЕРАКТИВToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem авишаВыставокToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem конкурсыToolStripMenuItem;
@@ -1255,6 +1054,7 @@
         private System.Windows.Forms.ToolStripMenuItem английскиеХудожникиToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem американскиеХудожникиToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem австрийскиеХудожникиToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem toolStripMenuItem1;
 
         //private System.Windows.Forms.Button button1;
 
