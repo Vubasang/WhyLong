@@ -25,7 +25,7 @@ namespace WhyLong
         {
             DataTable dt = new DataTable();
             dt.Columns.Add("CodeEmployee");
-            dt.Columns.Add("Name");
+            dt.Columns.Add("FullName");
             dt.Columns.Add("YearOfBirth");
             dt.Columns.Add("Gender");
             dt.Columns.Add("Email");

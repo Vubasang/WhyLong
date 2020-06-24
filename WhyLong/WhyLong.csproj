@@ -442,6 +442,15 @@
     <Compile Include="ArtExhibitions_Yakutsk.Designer.cs">
       <DependentUpon>ArtExhibitions_Yakutsk.cs</DependentUpon>
     </Compile>
+    <Compile Include="Users\ListOfUsers.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Users\ListOfUsers.Designer.cs">
+      <DependentUpon>ListOfUsers.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Users\Users.cs" />
+    <Compile Include="Users\UsersBLL.cs" />
+    <Compile Include="Users\UsersDAL.cs" />
     <EmbeddedResource Include="aboutUs.resx">
       <DependentUpon>aboutUs.cs</DependentUpon>
     </EmbeddedResource>
@@ -611,6 +620,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="ArtExhibitions_Yakutsk.resx">
       <DependentUpon>ArtExhibitions_Yakutsk.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Users\ListOfUsers.resx">
+      <DependentUpon>ListOfUsers.cs</DependentUpon>
     </EmbeddedResource>
     <None Include="packages.config" />
     <None Include="Properties\Settings.settings">

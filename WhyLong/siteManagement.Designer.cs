@@ -30,6 +30,7 @@
         {
             this.menuStrip1 = new System.Windows.Forms.MenuStrip();
             this.списокСотрудниковToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.списокПользователейToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.menuStrip1.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -37,7 +38,8 @@
             // 
             this.menuStrip1.ImageScalingSize = new System.Drawing.Size(20, 20);
             this.menuStrip1.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
-            this.списокСотрудниковToolStripMenuItem});
+            this.списокСотрудниковToolStripMenuItem,
+            this.списокПользователейToolStripMenuItem});
             this.menuStrip1.Location = new System.Drawing.Point(0, 0);
             this.menuStrip1.Name = "menuStrip1";
             this.menuStrip1.Size = new System.Drawing.Size(1125, 28);
@@ -50,6 +52,13 @@
             this.списокСотрудниковToolStripMenuItem.Size = new System.Drawing.Size(165, 24);
             this.списокСотрудниковToolStripMenuItem.Text = "Список сотрудников";
             this.списокСотрудниковToolStripMenuItem.Click += new System.EventHandler(this.СписокСотрудниковToolStripMenuItem_Click);
+            // 
+            // списокПользователейToolStripMenuItem
+            // 
+            this.списокПользователейToolStripMenuItem.Name = "списокПользователейToolStripMenuItem";
+            this.списокПользователейToolStripMenuItem.Size = new System.Drawing.Size(182, 24);
+            this.списокПользователейToolStripMenuItem.Text = "Список пользователей";
+            this.списокПользователейToolStripMenuItem.Click += new System.EventHandler(this.СписокПользователейToolStripMenuItem_Click);
             // 
             // siteManagement
             // 
@@ -72,5 +81,6 @@
 
         private System.Windows.Forms.MenuStrip menuStrip1;
         private System.Windows.Forms.ToolStripMenuItem списокСотрудниковToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem списокПользователейToolStripMenuItem;
     }
 }

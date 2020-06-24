@@ -77,7 +77,7 @@ namespace WhyLong
                         {
                             SqlConnection conn = new SqlConnection(@"Data Source=DESKTOP-TAL0KGO\SQLEXPRESS;Initial Catalog=WhyLong;Integrated Security=True");
                             SqlCommand cmd = new SqlCommand(@"INSERT INTO [dbo].[Users]
-                        ([Name]
+                        ([FullName]
                         ,[Phone]
                         ,[Email]
                         ,[UserName]
@@ -88,6 +88,7 @@ namespace WhyLong
                             cmd.ExecuteNonQuery();
                             MessageBox.Show("регистрация прошла успешно!", "Уведомление", MessageBoxButtons.OK, MessageBoxIcon.Information);
                             Clear();
+                            Close();
                         }
                         catch (Exception ex)
                         {

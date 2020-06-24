@@ -22,5 +22,11 @@ namespace WhyLong
             ListOfEmployees f = new ListOfEmployees();
             f.ShowDialog();
         }
+
+        private void СписокПользователейToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            Users.ListOfUsers f = new Users.ListOfUsers();
+            f.ShowDialog();
+        }
     }
 }
